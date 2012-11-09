@@ -1,0 +1,1663 @@
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 09:43:58 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (3.1ms)
+Completed 200 OK in 29ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-10-31 09:43:58 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/home/callback?code=AQCVIt9feX2UlFhCMY8tQ82dh0E2ggO1GweTdvf9jW9BEG2fJI9ErGEe3WZ_Ogo4rXLQwAmIJImXODuXZO1Ej0_KbzZzPrYeTn3mVUwD-eC0m4hDcJlzUoFoCuJyGMl5eQx8C1UHqpt8BzCibtckjoJuxyPAin1WobKgS5XCy7GiJGu0HRFxI6VfI2MA87HntxlbyVNhFf15v0f6THkPGfcm" for 127.0.0.1 at 2012-10-31 09:44:35 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCVIt9feX2UlFhCMY8tQ82dh0E2ggO1GweTdvf9jW9BEG2fJI9ErGEe3WZ_Ogo4rXLQwAmIJImXODuXZO1Ej0_KbzZzPrYeTn3mVUwD-eC0m4hDcJlzUoFoCuJyGMl5eQx8C1UHqpt8BzCibtckjoJuxyPAin1WobKgS5XCy7GiJGu0HRFxI6VfI2MA87HntxlbyVNhFf15v0f6THkPGfcm"}
+Rendered home/callback.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 1460ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2012-10-31 09:47:20 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"mFrIXgFxr2lYN_QGztCIKifZk5i5FLmm8Mv-i27WEKw.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTE2Nzc2MDAsImlzc3VlZF9hdCI6MTM1MTY3MzI0MSwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQVBaQnFtUHNNTlR1ZEMyMm9iTVZURHF3bk43eE9PUmRYeVpDVVh3a203V0wzVzNkcFAxZnBPY1h0c2VTUHVOTjhZV0ZHNVZLd2dkVHcya0NHaTlJbUs3cUoyVVFaRFpEIiwidXNlciI6eyJjb3VudHJ5IjoiZXMiLCJsb2NhbGUiOiJlc19MQSIsImFnZSI6eyJtaW4iOjIxfX0sInVzZXJfaWQiOiI1OTAwNjQwODUifQ"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQAfSKub59NWz_A1d9Muyd5LpdEKqW2vmbj-PfHOluoVj7bao-u7q6I5zmHiVtRjRlUD0JHYaAQeS2v9ng3tV2R5k-1mle7p6H6M4kaekIWgUXnzV4cmYuYfA6Yx13fChhMBPOTnaKVOw-8jOd5hAoPnEhH7oq-NFaHyXpUqVzgMTIBWjuE5weobIRdKWKimhRVhKMM9mFhMvDPbOAwxQyuw" for 127.0.0.1 at 2012-10-31 09:47:25 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAfSKub59NWz_A1d9Muyd5LpdEKqW2vmbj-PfHOluoVj7bao-u7q6I5zmHiVtRjRlUD0JHYaAQeS2v9ng3tV2R5k-1mle7p6H6M4kaekIWgUXnzV4cmYuYfA6Yx13fChhMBPOTnaKVOw-8jOd5hAoPnEhH7oq-NFaHyXpUqVzgMTIBWjuE5weobIRdKWKimhRVhKMM9mFhMvDPbOAwxQyuw"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 1225ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2012-10-31 09:47:52 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"e0Qzwl1K0X_YCMv64rEZSC6MYIgxrEal16WfUWelzK8.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTE2Nzc2MDAsImlzc3VlZF9hdCI6MTM1MTY3MzI3Miwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQVBaQnFtUHNNTlR1ZEMyMm9iTVZURHF3bk43eE9PUmRYeVpDVVh3a203V0wzVzNkcFAxZnBPY1h0c2VTUHVOTjhZV0ZHNVZLd2dkVHcya0NHaTlJbUs3cUoyVVFaRFpEIiwidXNlciI6eyJjb3VudHJ5IjoiZXMiLCJsb2NhbGUiOiJlc19MQSIsImFnZSI6eyJtaW4iOjIxfX0sInVzZXJfaWQiOiI1OTAwNjQwODUifQ"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQB4xJeDDovGnr9C7TCjKGKKwlYVRix5dt7ADfqsf6QRO0r2V3SrDFrwIfSSlwgqtTSsMPAWOc9KwcjzZ9MROYEnn_LeagknBGjs_ycAp_ZES0067vNiCTZBFgF4AFxyuGVqMo6lPm-w5dY_bE1bABkhF-ExoMnvYcV1BhuBmyIeSetLUR22G-ROEcx1iphIQBTuUTSLwAn31Ml_18RqKFVo" for 127.0.0.1 at 2012-10-31 09:47:54 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQB4xJeDDovGnr9C7TCjKGKKwlYVRix5dt7ADfqsf6QRO0r2V3SrDFrwIfSSlwgqtTSsMPAWOc9KwcjzZ9MROYEnn_LeagknBGjs_ycAp_ZES0067vNiCTZBFgF4AFxyuGVqMo6lPm-w5dY_bE1bABkhF-ExoMnvYcV1BhuBmyIeSetLUR22G-ROEcx1iphIQBTuUTSLwAn31Ml_18RqKFVo"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 1136ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2012-10-31 11:25:09 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"XhbOGLZ2nCOu2DgldPQTi_UhidD5R4jv6HH7uSW7x80.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTE2ODQ4MDAsImlzc3VlZF9hdCI6MTM1MTY3OTEwOSwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQUVmRzJKajRBTzFDSHhmeGVKcWdVcVpCWXZhTlhRVXlqSTVzVlRpSnl5Q2ZRMXluWkNIRTU0VGxQU2FsVWR4Mk11aW1hMm9HWTBvQ2tyUEVBZzhrNGluaW9mUkFaRFpEIiwidXNlciI6eyJjb3VudHJ5IjoiZXMiLCJsb2NhbGUiOiJlc19MQSIsImFnZSI6eyJtaW4iOjIxfX0sInVzZXJfaWQiOiI1OTAwNjQwODUifQ"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (35.5ms)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback" for 127.0.0.1 at 2012-10-31 11:26:11 +0100
+  Processing by HomeController#callback as HTML
+Rendered home/callback.html.erb within layouts/home (34.9ms)
+Completed 500 Internal Server Error in 363ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: Looping through your statuses:<br />
+    2: <ul>
+    3: 
+    4: <% @graph_data.each do |status| %>
+    5: <%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    6: <% end %>
+    7: </ul>
+  app/views/home/callback.html.erb:4:in `_app_views_home_callback_html_erb___417451964706558006_24408640'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.6ms)
+
+
+Started POST "/" for 127.0.0.1 at 2012-10-31 11:43:33 +0100
+
+SyntaxError (/home/kunduby/socialwin/rails/koala-rails-app/app/controllers/home_controller.rb:9: target of repeat operator is not specified: /*
+		@auth_url =  session[:oauth].url_for_oauth_code(:permissions=>"read_stream") 	
+		puts session.to_s + "<<< session"
+*/):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (264.1ms)
+
+
+Started POST "/" for 127.0.0.1 at 2012-10-31 11:44:11 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"DhouICrcFnn8dprfXWtrToEga98KmmD4l0hjgYreKO4.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTE2ODQ4MDAsImlzc3VlZF9hdCI6MTM1MTY4MDI1MSwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQUVmRzJKajRBTzFDSHhmeGVKcWdVcVpCWXZhTlhRVXlqSTVzVlRpSnl5Q2ZRMXluWkNIRTU0VGxQU2FsVWR4Mk11aW1hMm9HWTBvQ2tyUEVBZzhrNGluaW9mUkFaRFpEIiwidXNlciI6eyJjb3VudHJ5IjoiZXMiLCJsb2NhbGUiOiJlc19MQSIsImFnZSI6eyJtaW4iOjIxfX0sInVzZXJfaWQiOiI1OTAwNjQwODUifQ"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (20.5ms)
+Completed 200 OK in 31ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 11:44:14 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 11:44:17 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 11:44:20 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2012-10-31 11:44:26 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"F-LMqeWmjx9MiJUtyrzK5j0NK4XGwP8pHgHeC7sVM_k.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTE2ODQ4MDAsImlzc3VlZF9hdCI6MTM1MTY4MDI2NCwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQUVmRzJKajRBTzFDSHhmeGVKcWdVcVpCWXZhTlhRVXlqSTVzVlRpSnl5Q2ZRMXluWkNIRTU0VGxQU2FsVWR4Mk11aW1hMm9HWTBvQ2tyUEVBZzhrNGluaW9mUkFaRFpEIiwidXNlciI6eyJjb3VudHJ5IjoiZXMiLCJsb2NhbGUiOiJlc19MQSIsImFnZSI6eyJtaW4iOjIxfX0sInVzZXJfaWQiOiI1OTAwNjQwODUifQ"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 11:44:42 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 11:44:44 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 11:44:46 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 11:45:48 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.8ms)
+Completed 200 OK in 29ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDPWXRXFSws2iA9yQf8k-G-E89ioR3f4QqEwApfUOkry0bny6uIISKa84FiLol08lqIr1VSFhXyQVeHEAw9kzvHz6gaBGBRmhnb6yM9YLqjT-M2Em6xePlNEN22CN4ugJMOtw03SUtQrjyOSUzZjXPJYFWuKHjMYk5Cys1juyxjmqlGcKOr4rcsl7mhciSMqJm94fIHhHdrEbx735jlW0fZ" for 127.0.0.1 at 2012-10-31 11:46:01 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDPWXRXFSws2iA9yQf8k-G-E89ioR3f4QqEwApfUOkry0bny6uIISKa84FiLol08lqIr1VSFhXyQVeHEAw9kzvHz6gaBGBRmhnb6yM9YLqjT-M2Em6xePlNEN22CN4ugJMOtw03SUtQrjyOSUzZjXPJYFWuKHjMYk5Cys1juyxjmqlGcKOr4rcsl7mhciSMqJm94fIHhHdrEbx735jlW0fZ"}
+Rendered home/callback.html.erb within layouts/home (4.2ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: Looping through your statuses:<br />
+    2: <ul>
+    3: 
+    4: <% @graph_data.each do |status| %>
+    5: <%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    6: <% end %>
+    7: </ul>
+  app/views/home/callback.html.erb:4:in `_app_views_home_callback_html_erb___3693886762351470277_20484420'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/home/callback?code=AQDPWXRXFSws2iA9yQf8k-G-E89ioR3f4QqEwApfUOkry0bny6uIISKa84FiLol08lqIr1VSFhXyQVeHEAw9kzvHz6gaBGBRmhnb6yM9YLqjT-M2Em6xePlNEN22CN4ugJMOtw03SUtQrjyOSUzZjXPJYFWuKHjMYk5Cys1juyxjmqlGcKOr4rcsl7mhciSMqJm94fIHhHdrEbx735jlW0fZ" for 127.0.0.1 at 2012-10-31 11:47:06 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDPWXRXFSws2iA9yQf8k-G-E89ioR3f4QqEwApfUOkry0bny6uIISKa84FiLol08lqIr1VSFhXyQVeHEAw9kzvHz6gaBGBRmhnb6yM9YLqjT-M2Em6xePlNEN22CN4ugJMOtw03SUtQrjyOSUzZjXPJYFWuKHjMYk5Cys1juyxjmqlGcKOr4rcsl7mhciSMqJm94fIHhHdrEbx735jlW0fZ"}
+Rendered home/callback.html.erb within layouts/home (2.4ms)
+Completed 200 OK in 8405ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBINeZIvut4q8sRVreOjaM3-EYWAqmYzh-tYK5BbMNNHO3EZWD-J60-_7KSyYPH0LkCgJR4aNkDQUgC0PDvPR28c1E5ZWTVopt12axBmATrH2Y-n_DkemlBQwRvDMHSgXLToOZvO2QP_9c7cwuySIltLj92bjvDf9rl_I8rWu3PBmGvO04MP8lrlV4aAcYoevqli5P-_REp4ELYn_OvDzfC" for 127.0.0.1 at 2012-10-31 11:47:15 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBINeZIvut4q8sRVreOjaM3-EYWAqmYzh-tYK5BbMNNHO3EZWD-J60-_7KSyYPH0LkCgJR4aNkDQUgC0PDvPR28c1E5ZWTVopt12axBmATrH2Y-n_DkemlBQwRvDMHSgXLToOZvO2QP_9c7cwuySIltLj92bjvDf9rl_I8rWu3PBmGvO04MP8lrlV4aAcYoevqli5P-_REp4ELYn_OvDzfC"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 1728ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 11:47:17 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDLUodLzIb8GqHiumMmGaqrBFl-bUFxCQvrLS_iMliVPI1pgZNTX0Ah0qu2sm0ss4BhbwIfyJP8zyYNLstXT7Lj8GVLA1dJ92NDP8xPZ-i8UZqst6MpGh2bx9faFQ-2Jyv0jg7LI_AUXvp-kPyrsyxckCeMp0SHaxMSaKuRESXXCSyMrUU0VEMhMa7p7qBiN6bTeWcB_p-ayJnsWJp_y80f" for 127.0.0.1 at 2012-10-31 11:47:19 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDLUodLzIb8GqHiumMmGaqrBFl-bUFxCQvrLS_iMliVPI1pgZNTX0Ah0qu2sm0ss4BhbwIfyJP8zyYNLstXT7Lj8GVLA1dJ92NDP8xPZ-i8UZqst6MpGh2bx9faFQ-2Jyv0jg7LI_AUXvp-kPyrsyxckCeMp0SHaxMSaKuRESXXCSyMrUU0VEMhMa7p7qBiN6bTeWcB_p-ayJnsWJp_y80f"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 3950ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 11:48:38 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.9ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 11:49:37 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 11:49:41 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 11:50:05 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 12:16:31 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (3.4ms)
+Completed 200 OK in 31ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQD8hsvUeBo3ptmamb71tWX8kSSy8MGV0MYop9t0JRjGqMDbsCIcHn43ykcz2T3KVGR8m9Wnx4JK9lWTQipRTfY_FIaeeIiudWSX2HKcGPW8scnSbDkknStfAAJEMpFNRwBm3L0MCEIdolI8Ftpz46qmiChUJ8TxOxQo9b7NziBoq9fuIDfsTXBea-UB3bk0Mx0YZBIzJBvMpFnjOt0GRsov" for 127.0.0.1 at 2012-10-31 12:16:35 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQD8hsvUeBo3ptmamb71tWX8kSSy8MGV0MYop9t0JRjGqMDbsCIcHn43ykcz2T3KVGR8m9Wnx4JK9lWTQipRTfY_FIaeeIiudWSX2HKcGPW8scnSbDkknStfAAJEMpFNRwBm3L0MCEIdolI8Ftpz46qmiChUJ8TxOxQo9b7NziBoq9fuIDfsTXBea-UB3bk0Mx0YZBIzJBvMpFnjOt0GRsov"}
+Rendered home/callback.html.erb within layouts/home (0.9ms)
+Completed 200 OK in 5198ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQD8hsvUeBo3ptmamb71tWX8kSSy8MGV0MYop9t0JRjGqMDbsCIcHn43ykcz2T3KVGR8m9Wnx4JK9lWTQipRTfY_FIaeeIiudWSX2HKcGPW8scnSbDkknStfAAJEMpFNRwBm3L0MCEIdolI8Ftpz46qmiChUJ8TxOxQo9b7NziBoq9fuIDfsTXBea-UB3bk0Mx0YZBIzJBvMpFnjOt0GRsov" for 127.0.0.1 at 2012-10-31 12:21:49 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQD8hsvUeBo3ptmamb71tWX8kSSy8MGV0MYop9t0JRjGqMDbsCIcHn43ykcz2T3KVGR8m9Wnx4JK9lWTQipRTfY_FIaeeIiudWSX2HKcGPW8scnSbDkknStfAAJEMpFNRwBm3L0MCEIdolI8Ftpz46qmiChUJ8TxOxQo9b7NziBoq9fuIDfsTXBea-UB3bk0Mx0YZBIzJBvMpFnjOt0GRsov"}
+Rendered home/callback.html.erb within layouts/home (2.6ms)
+Completed 200 OK in 2125ms (Views: 29.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 12:24:45 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.7ms)
+Completed 200 OK in 32ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCw_zuSXu6lehJOl1l3Yu3T6hczOWVRZa3ET_kcrRBFYwBBM6Mw2DlWEW8RoqCMbgb2F4zTL7eQQAChR6d_uhepBJtJkJXnonmiDcdeZ8wXKRA8M485BCPT7wX7SewmJnAdmN-jdPMlpAz24-VsPuRei1DhBJgK8ZjUzQSg0BwI1pb_Eiczh7RzWCpJxdV3Vb8g6b9PY8QwduocKCp3WXdA" for 127.0.0.1 at 2012-10-31 12:24:49 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCw_zuSXu6lehJOl1l3Yu3T6hczOWVRZa3ET_kcrRBFYwBBM6Mw2DlWEW8RoqCMbgb2F4zTL7eQQAChR6d_uhepBJtJkJXnonmiDcdeZ8wXKRA8M485BCPT7wX7SewmJnAdmN-jdPMlpAz24-VsPuRei1DhBJgK8ZjUzQSg0BwI1pb_Eiczh7RzWCpJxdV3Vb8g6b9PY8QwduocKCp3WXdA"}
+Rendered home/callback.html.erb within layouts/home (4.1ms)
+Completed 500 Internal Server Error in 2194ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    7: 
+    8: </ul>
+    9: 
+    10: <% @json_datos.each do |status| %>
+    11: <%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    12: <% end %>
+  app/views/home/callback.html.erb:10:in `_app_views_home_callback_html_erb___437395563027958125_25787900'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 12:26:10 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.7ms)
+Completed 200 OK in 28ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBmAEieIIhdasSiEXxeAzwQS0C8XtJcitnedOSwY1RV33yS2lfHf6rjQdfyhYwR1iH5gPOhzLLXPeaji2N8mHPw9TJ_GTcxclHtd2mYKHZz2VwoCU0q3bCV81W7Rj8NmE-SRPeXU4JZIZbBR8JGLPAIp4X4ToKVi9UX05f-NU17_nz3DA7GG5TtlrNz0Wgl-QksIeeqAYoIj_cdhm4pZbWp" for 127.0.0.1 at 2012-10-31 12:26:13 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBmAEieIIhdasSiEXxeAzwQS0C8XtJcitnedOSwY1RV33yS2lfHf6rjQdfyhYwR1iH5gPOhzLLXPeaji2N8mHPw9TJ_GTcxclHtd2mYKHZz2VwoCU0q3bCV81W7Rj8NmE-SRPeXU4JZIZbBR8JGLPAIp4X4ToKVi9UX05f-NU17_nz3DA7GG5TtlrNz0Wgl-QksIeeqAYoIj_cdhm4pZbWp"}
+Rendered home/callback.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 1908ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 12:27:16 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (3.0ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDuWotcLETx82eKVnomEfntfeVVn1jH5iF87MOMO3NgSm7Bhe6MtvUp_SZwz5KiCuNIj3Vi4qaK02e-x871sMY4ViSI9Fu_p2c8c-aiAIzgYEfJDAXFDnef17vO8XF2MJv0yd5lnQKUK0MVDJbedlY5tjWHk1fbwEKMpL8hjipfTMVsPXNUrg-7lLb1MEMyvroMgH0kvJxbKg_e7oW377HN" for 127.0.0.1 at 2012-10-31 12:27:18 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDuWotcLETx82eKVnomEfntfeVVn1jH5iF87MOMO3NgSm7Bhe6MtvUp_SZwz5KiCuNIj3Vi4qaK02e-x871sMY4ViSI9Fu_p2c8c-aiAIzgYEfJDAXFDnef17vO8XF2MJv0yd5lnQKUK0MVDJbedlY5tjWHk1fbwEKMpL8hjipfTMVsPXNUrg-7lLb1MEMyvroMgH0kvJxbKg_e7oW377HN"}
+Rendered home/callback.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 1860ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 12:43:38 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (3.9ms)
+Completed 200 OK in 32ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQB2YJa7VyAhePc4qjls7AbkEhLZPIQWGn92iwXQgeOiyrdw6kTvd8oCKg70Lb6UuQkyuBTvtm8miDipxEGia17nMEyHO7bHmSCCYQcS9PvFfYTBXy4_hYCcRG_vJBMH11PGqI-G8zT7U3S6rFaFWbtglGK_Cs3xqGSlJLgNSnmscedUp9KWob2piCEjRJpZFwC0aOuGWFJISiWsx8mgMNNR" for 127.0.0.1 at 2012-10-31 12:43:53 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQB2YJa7VyAhePc4qjls7AbkEhLZPIQWGn92iwXQgeOiyrdw6kTvd8oCKg70Lb6UuQkyuBTvtm8miDipxEGia17nMEyHO7bHmSCCYQcS9PvFfYTBXy4_hYCcRG_vJBMH11PGqI-G8zT7U3S6rFaFWbtglGK_Cs3xqGSlJLgNSnmscedUp9KWob2piCEjRJpZFwC0aOuGWFJISiWsx8mgMNNR"}
+Rendered home/callback.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 4858ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-10-31 12:58:36 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 12:58:40 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-10-31 12:58:40 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-10-31 12:58:40 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-10-31 13:48:45 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.3ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-10-31 13:48:46 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-10-31 13:48:46 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/home/callback?code=AQBWqRPy5OioxXrGSUo2lEghSFG2V5WyldOzHnV6yWKZArqDfSC_UYYXF-iElBW0EX5e-vvvMREoVH1itK3E-K9VIKgHc4ZnkEdFShr8UbVQXxngPOQreFNhhKK-nuZ7Gn0Gr4b0mOMUXmkaXOAX2pg3jtceHQZwXFS3bApp3Nn1cuaRLOezBpBjTD0QyWdriQw-s8J7mY_I9_rQeyM_Wssz" for 127.0.0.1 at 2012-10-31 13:49:06 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBWqRPy5OioxXrGSUo2lEghSFG2V5WyldOzHnV6yWKZArqDfSC_UYYXF-iElBW0EX5e-vvvMREoVH1itK3E-K9VIKgHc4ZnkEdFShr8UbVQXxngPOQreFNhhKK-nuZ7Gn0Gr4b0mOMUXmkaXOAX2pg3jtceHQZwXFS3bApp3Nn1cuaRLOezBpBjTD0QyWdriQw-s8J7mY_I9_rQeyM_Wssz"}
+Rendered home/callback.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 1985ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-10-31 13:49:08 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-10-31 13:49:08 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-01 12:53:31 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (4.7ms)
+Completed 200 OK in 62ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 12:53:41 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/home/callback?code=AQBYIiISXPh4nEitwgkMLOii0WmceExXkgOJxKzqd1xIS1MWpVvJZN8LSMp31hSUdGCrHLc646xM8VaDqUWVFKQnJumBgaQNbE36whs21X72va8hfx46WUlx6QYoUaTRryXrc-fe_Poqpaurg5DkRxf6MhfmSJb3M2Fo1-5jJJVWhnQy1WPyGGKmS_ItWkhVo0PNGbiDjFPD4reD_eMReR08" for 127.0.0.1 at 2012-11-01 12:53:44 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBYIiISXPh4nEitwgkMLOii0WmceExXkgOJxKzqd1xIS1MWpVvJZN8LSMp31hSUdGCrHLc646xM8VaDqUWVFKQnJumBgaQNbE36whs21X72va8hfx46WUlx6QYoUaTRryXrc-fe_Poqpaurg5DkRxf6MhfmSJb3M2Fo1-5jJJVWhnQy1WPyGGKmS_ItWkhVo0PNGbiDjFPD4reD_eMReR08"}
+Rendered home/callback.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 62231ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 12:54:46 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 12:54:46 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 13:03:51 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 13:03:55 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 13:03:55 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 13:03:55 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 13:03:55 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-01 13:10:22 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.6ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 13:10:23 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 13:10:23 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/home/callback?code=AQCiJJZsgUjbLD6ZwYzt1CmdTWy-lWR6gk9wyFDp1udiWrW4zAjywudGivm-mEkUUdvTne8_3Z8HCCHJsdz5VqNtNyqugOOh4LYOIhJFp--lYylg0lH50-tW19oPNtuNgvjIhZCLtet_8dpn77O4GwjF_id-_Fe1KAk99gzByzPZsFmlm-91sqUzHfp_r3Pewg761d9CxSWxIeIUwBdFLJxA" for 127.0.0.1 at 2012-11-01 13:10:58 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCiJJZsgUjbLD6ZwYzt1CmdTWy-lWR6gk9wyFDp1udiWrW4zAjywudGivm-mEkUUdvTne8_3Z8HCCHJsdz5VqNtNyqugOOh4LYOIhJFp--lYylg0lH50-tW19oPNtuNgvjIhZCLtet_8dpn77O4GwjF_id-_Fe1KAk99gzByzPZsFmlm-91sqUzHfp_r3Pewg761d9CxSWxIeIUwBdFLJxA"}
+Rendered home/callback.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 62413ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 13:12:01 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 13:12:01 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:05:29 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-01 14:05:32 +0100
+
+SyntaxError (/home/kunduby/socialwin/rails/koala-rails-app/app/controllers/home_controller.rb:57: syntax error, unexpected keyword_end, expecting $end):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (17.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.9ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:05:32 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:05:32 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-01 14:07:04 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.8ms)
+Completed 200 OK in 28ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:07:04 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:07:04 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/home/callback?code=AQA9Xj42JTkYgOSScoqQCnsjM0hJb9oflwoRNVNtU_qAl03QnJTi-imFCDkpCg7ia8zx1i2ryEuzicySHxKr9aQzSAyc0on4A7xhOIeuUik-bpjwS6td-YHBjmSz00m9-rbYKtEX8a_hNcsrg8t-uza2Z9xQnrN71iGpLl51HkfhsXEX5ea0--7-6otfPh336XIy_kz2zKfxRVvEyh_1VUrJ" for 127.0.0.1 at 2012-11-01 14:07:07 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQA9Xj42JTkYgOSScoqQCnsjM0hJb9oflwoRNVNtU_qAl03QnJTi-imFCDkpCg7ia8zx1i2ryEuzicySHxKr9aQzSAyc0on4A7xhOIeuUik-bpjwS6td-YHBjmSz00m9-rbYKtEX8a_hNcsrg8t-uza2Z9xQnrN71iGpLl51HkfhsXEX5ea0--7-6otfPh336XIy_kz2zKfxRVvEyh_1VUrJ"}
+Rendered home/callback.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 124273ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:09:11 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:09:12 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:09:50 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=1_0" for 127.0.0.1 at 2012-11-01 14:11:24 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"HJz2XxQbvKVyj0UlMucEN60Y3qEuff3M_wR2LUErTTY.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTE3ODIwMDAsImlzc3VlZF9hdCI6MTM1MTc3NTQ4Mywib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQUJ1VEdkV2Y5Q0QydUJYeUllZmJyWWRrSWtNWFpCcElReEZzczRvSGc2bTNka0lyb1l6eWhiZTdtelpBOG93dUEyQktZendvTFFBdFpDVnJhaFlVaGdyeVhDeWF3WkRaRCIsInVzZXIiOnsiY291bnRyeSI6ImVzIiwibG9jYWxlIjoiZXNfTEEiLCJhZ2UiOnsibWluIjoyMX19LCJ1c2VyX2lkIjoiNTkwMDY0MDg1In0", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"1_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (0.2ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:13:22 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-01 14:13:26 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:13:26 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:13:26 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/home/callback?code=AQD3uWqzqBwizZrnHeGJtJSt5BB1YEZJoK2nNMzhitTR5RywAYAitzsdvDrNXzQJAxOQRB15YAzhsVtfd5ZcqKDZ5NxkJ5m4dDCUJppoCr6U1pWLlZok_t6Jz0dfqT4fG8gjmCcpwoKAZNbFlrsa9fOCISODcfkGEvqSJzQRomREi16pnfbJ6HPz11TVHPeSbHazeUe25SXaOF4-FlnqBX8r" for 127.0.0.1 at 2012-11-01 14:13:29 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQD3uWqzqBwizZrnHeGJtJSt5BB1YEZJoK2nNMzhitTR5RywAYAitzsdvDrNXzQJAxOQRB15YAzhsVtfd5ZcqKDZ5NxkJ5m4dDCUJppoCr6U1pWLlZok_t6Jz0dfqT4fG8gjmCcpwoKAZNbFlrsa9fOCISODcfkGEvqSJzQRomREi16pnfbJ6HPz11TVHPeSbHazeUe25SXaOF4-FlnqBX8r"}
+Rendered home/callback.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 82804ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:14:51 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:14:52 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:14:52 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:14:52 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:14:52 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:14:52 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:14:52 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:14:52 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:14:52 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:14:52 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:14:52 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:14:56 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:18:02 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:18:02 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:18:02 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:18:03 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:18:03 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:18:03 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:20:34 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-01 14:23:13 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.7ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:23:13 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:23:13 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/home/callback?code=AQC6g7VFNwl31Fa3rm1OGVMw1IEhcPg0hPFzvN2ZLxWJ6t1-xTWRuOL6DcGJwJAsXrNwkZd-ULTzQpgbKQUXAalcMVfL2ty3NPql5ZiivcRgPXRYTPrg3Sw87QmGajPOfYGhHWoFFOITE-vMVqTDjWAxUKooz9Dj4oc2M2a0MQPkXGzd1_J1JhGvlderzqHNkjsMwbpozfd1t9j-FiAQLtw1" for 127.0.0.1 at 2012-11-01 14:23:21 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQC6g7VFNwl31Fa3rm1OGVMw1IEhcPg0hPFzvN2ZLxWJ6t1-xTWRuOL6DcGJwJAsXrNwkZd-ULTzQpgbKQUXAalcMVfL2ty3NPql5ZiivcRgPXRYTPrg3Sw87QmGajPOfYGhHWoFFOITE-vMVqTDjWAxUKooz9Dj4oc2M2a0MQPkXGzd1_J1JhGvlderzqHNkjsMwbpozfd1t9j-FiAQLtw1"}
+Rendered home/callback.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 82927ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:24:44 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:24:44 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:43:57 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-01 14:47:07 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-02 12:46:37 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (8.1ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:46:38 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:46:38 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:47:25 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home/callback" for 127.0.0.1 at 2012-11-02 12:48:30 +0100
+  Processing by HomeController#callback as HTML
+Rendered home/callback.html.erb within layouts/home (32.5ms)
+Completed 500 Internal Server Error in 631ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: Looping through your statuses:<br />
+    2: <ul>
+    3: 
+    4: <% @graph_data.each do |status| %>
+    5: <%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    6: <% end %>
+    7: 
+  app/views/home/callback.html.erb:4:in `_app_views_home_callback_html_erb__3609731802671244515_20332460'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.7ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:48:31 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:48:31 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:48:42 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/home/callback?code=AQByQS5aMJcyx7BqmmvuAmcUmJsZ0k_dX5LVYfXstX98aGGUGOBIgOwS9urAVM66BiopFFaYRMkbyVyrnOzBz2l-mCxHB3MvTxJeZuGfif6Tq-y3Fv4St_yZpTaE458RE_nYxBBGpNFOiVd0b9Mnktp_xduGzy44bovwUcIBJGtF-W6r-Xf9vbcj2Fxbg7-Jb0LRRspPG2DVwkbPazOT9Sdt" for 127.0.0.1 at 2012-11-02 12:50:59 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQByQS5aMJcyx7BqmmvuAmcUmJsZ0k_dX5LVYfXstX98aGGUGOBIgOwS9urAVM66BiopFFaYRMkbyVyrnOzBz2l-mCxHB3MvTxJeZuGfif6Tq-y3Fv4St_yZpTaE458RE_nYxBBGpNFOiVd0b9Mnktp_xduGzy44bovwUcIBJGtF-W6r-Xf9vbcj2Fxbg7-Jb0LRRspPG2DVwkbPazOT9Sdt"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 1822ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:51:01 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:51:01 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-02 12:54:04 +0100
+  Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `to_S' for #<Rack::Session::Abstract::SessionHash:0x000000032d9c88>):
+  app/controllers/home_controller.rb:10:in `index'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:54:04 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:54:04 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-02 12:54:36 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.2ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:54:37 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:54:37 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:55:10 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-02 12:55:26 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.2ms)
+Completed 200 OK in 27ms (Views: 26.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:55:27 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:55:27 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-02 12:57:10 +0100
+
+SyntaxError (/home/kunduby/socialwin/rails/koala-rails-app/app/controllers/home_controller.rb:9: invalid multibyte char (US-ASCII)
+/home/kunduby/socialwin/rails/koala-rails-app/app/controllers/home_controller.rb:9: invalid multibyte char (US-ASCII)
+/home/kunduby/socialwin/rails/koala-rails-app/app/controllers/home_controller.rb:9: syntax error, unexpected $end, expecting keyword_end
+		puts "Sesión: "
+		            ^):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.7ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:57:11 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:57:11 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-02 12:57:32 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.7ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:57:33 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:57:33 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-02 12:59:04 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.1ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:59:04 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 12:59:04 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-02 13:06:09 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.3ms)
+Completed 200 OK in 28ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:06:10 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:06:10 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/home/callback?code=AQAL89MLAWDUokz70IzWH2lsQ0xJ3Mz8I0jObGNkofcRjJys82iojo1clYV7K7QGYjnEjWsTSNnjzNA3QJ53XPt4_qWn3QEU-9RI0tz4ZjS0S8HNa0XQ4CnIUNKfmk71mrxWo5l6EgFYKW3KojzXBt0Di7HQhqnU8qqZPERxQX7hY8l8ftFmLl1IDt56EsUqSV1KT3O2gN9aFVGQE5je1VT6" for 127.0.0.1 at 2012-11-02 13:06:40 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAL89MLAWDUokz70IzWH2lsQ0xJ3Mz8I0jObGNkofcRjJys82iojo1clYV7K7QGYjnEjWsTSNnjzNA3QJ53XPt4_qWn3QEU-9RI0tz4ZjS0S8HNa0XQ4CnIUNKfmk71mrxWo5l6EgFYKW3KojzXBt0Di7HQhqnU8qqZPERxQX7hY8l8ftFmLl1IDt56EsUqSV1KT3O2gN9aFVGQE5je1VT6"}
+Rendered home/callback.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 1762ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:06:42 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:06:42 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-02 13:07:43 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.2ms)
+Completed 200 OK in 27ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:07:43 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:07:43 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/home/callback?code=AQCVK_6TBuAWiyAB1SrOR2VY9seddayLGHp3qxfGM6KfW7VIOQs4fqGzI5sbmT3KcCZn1jqMthDI1B6PKgbrxvHmbTRKjN_L6yFvfhtOXfA8rxvl-7my80EePUWPpIXSoL_7b3MROyPqxYZGEL4lN40WaMk4qCtHVxU4q7MH6l7mL7t32a7Qw46DGxs9zDX1PafPN9PSlhKXTdHxz64YuIkm" for 127.0.0.1 at 2012-11-02 13:07:45 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCVK_6TBuAWiyAB1SrOR2VY9seddayLGHp3qxfGM6KfW7VIOQs4fqGzI5sbmT3KcCZn1jqMthDI1B6PKgbrxvHmbTRKjN_L6yFvfhtOXfA8rxvl-7my80EePUWPpIXSoL_7b3MROyPqxYZGEL4lN40WaMk4qCtHVxU4q7MH6l7mL7t32a7Qw46DGxs9zDX1PafPN9PSlhKXTdHxz64YuIkm"}
+Rendered home/callback.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 1723ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:07:47 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:07:47 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-02 13:13:07 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.5ms)
+Completed 200 OK in 28ms (Views: 27.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:13:08 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:13:08 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/home/callback?code=AQC9LXMiPQjy1oHeh3bt9zrYSyjng0RzuVbWd9Zkch3jInuBaq8uB57JO1sg1Me4Ggkeai-3pbk17OlCPk6FGbMJ2wsGjvuuE8KehYbd-OIrnux8uCtFhpYJW1TnlD2Lh23ji5szAgeNUsVEauq3AhR9BdtfROTo7I7rTlsa3wI0Vl0Fc_GZjXe-F6LCjvCZPSS8iPf28urg9n51BRz24pPB" for 127.0.0.1 at 2012-11-02 13:13:24 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQC9LXMiPQjy1oHeh3bt9zrYSyjng0RzuVbWd9Zkch3jInuBaq8uB57JO1sg1Me4Ggkeai-3pbk17OlCPk6FGbMJ2wsGjvuuE8KehYbd-OIrnux8uCtFhpYJW1TnlD2Lh23ji5szAgeNUsVEauq3AhR9BdtfROTo7I7rTlsa3wI0Vl0Fc_GZjXe-F6LCjvCZPSS8iPf28urg9n51BRz24pPB"}
+Rendered home/callback.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 1862ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:13:26 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:13:26 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:13:32 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:13:42 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-02 13:13:45 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:13:45 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:13:45 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/home/callback?code=AQDpDro4Z-SQaBWM805TzF1Pl7BtHSQIMkEiCs5coNTbDvehRKJi62WCzzga1XKY_FjybB8Xktdbs9q4Vk3gKZ6CdgGIPCe2s6EW-81p7bHyXRm9DB5ycUgKIB86YqsI3GxTnvBA45fuMaCEGcrV5IYfBYcmR6802ALzXH-yhC88ccGOASoSDmv_9SX3zHU-Ich3LieG3wGdLRKI-uX-9JJQ" for 127.0.0.1 at 2012-11-02 13:14:11 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDpDro4Z-SQaBWM805TzF1Pl7BtHSQIMkEiCs5coNTbDvehRKJi62WCzzga1XKY_FjybB8Xktdbs9q4Vk3gKZ6CdgGIPCe2s6EW-81p7bHyXRm9DB5ycUgKIB86YqsI3GxTnvBA45fuMaCEGcrV5IYfBYcmR6802ALzXH-yhC88ccGOASoSDmv_9SX3zHU-Ich3LieG3wGdLRKI-uX-9JJQ"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 1776ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:14:13 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:14:13 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:16:30 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-02 13:19:12 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-07 18:00:03 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (3.0ms)
+Completed 200 OK in 30ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQApCV-3tR3NSmqQjmp9soUKS1wFT7Nv1rxQDnLOtQFBmUrLY5n3S1D1AIdNJ_2kepd6koRvh--NGL8BZr5O5dOCFiWeyjtaDxAveThA3ZiwDOcYQH2i7F9N431t7IswcNWAD4rUFOfeucWV55o3a11HaB7LC6i96ypcolCgtuuKt0kv0Z5dswgSaGi-xt4VVQx3otHg0ZgPQ7vL4qjcv5BM" for 127.0.0.1 at 2012-11-07 18:00:16 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQApCV-3tR3NSmqQjmp9soUKS1wFT7Nv1rxQDnLOtQFBmUrLY5n3S1D1AIdNJ_2kepd6koRvh--NGL8BZr5O5dOCFiWeyjtaDxAveThA3ZiwDOcYQH2i7F9N431t7IswcNWAD4rUFOfeucWV55o3a11HaB7LC6i96ypcolCgtuuKt0kv0Z5dswgSaGi-xt4VVQx3otHg0ZgPQ7vL4qjcv5BM"}
+Rendered home/callback.html.erb within layouts/home (3.2ms)
+Completed 200 OK in 105460ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQAfWkulj3IT1pXy7wLjw74xopUU4T9xcEceR-73kI2E3Pt2PYnt1IItoEVeEMUfR02nCp6S7eLa_m_rrsJSWSbbMzEcWDLORXmjobjjh_BDlw-RFfN9txRpsH8XMcxj8yD37ygQkU9HfTDEZtbrJ9BVMHOMg_I8qC-9tn5C0_RQlNSueJTB-PTgy1VgOG2XKems1Zuu6pYpqqJJld4eIFmO" for 127.0.0.1 at 2012-11-07 18:02:01 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAfWkulj3IT1pXy7wLjw74xopUU4T9xcEceR-73kI2E3Pt2PYnt1IItoEVeEMUfR02nCp6S7eLa_m_rrsJSWSbbMzEcWDLORXmjobjjh_BDlw-RFfN9txRpsH8XMcxj8yD37ygQkU9HfTDEZtbrJ9BVMHOMg_I8qC-9tn5C0_RQlNSueJTB-PTgy1VgOG2XKems1Zuu6pYpqqJJld4eIFmO"}
+Rendered home/callback.html.erb within layouts/home (3.3ms)
+Completed 200 OK in 103428ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDWJOM26_nOvffkPgkCnio32dTfnIdP4w_ZVSDkCPOJjFVNHIKAfQ4xhmPHjX7Zr7Sj2p2lVmUNmX1MwsV6MGUmz-5tekiC37tPuPBtIb6S87pcuyEzrBMP6pbYQRqckG7bf2XUx_aXa8cmOyBPUfccmWYbGm9_8LhMFhPMKzS35G1uAJ-bp0cdSu-SOQ2e1WYoHPoRfxM2qQKzuH_icTOS" for 127.0.0.1 at 2012-11-07 18:03:45 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDWJOM26_nOvffkPgkCnio32dTfnIdP4w_ZVSDkCPOJjFVNHIKAfQ4xhmPHjX7Zr7Sj2p2lVmUNmX1MwsV6MGUmz-5tekiC37tPuPBtIb6S87pcuyEzrBMP6pbYQRqckG7bf2XUx_aXa8cmOyBPUfccmWYbGm9_8LhMFhPMKzS35G1uAJ-bp0cdSu-SOQ2e1WYoHPoRfxM2qQKzuH_icTOS"}
+Rendered home/callback.html.erb within layouts/home (3.1ms)
+Completed 200 OK in 103388ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=2_0" for 127.0.0.1 at 2012-11-07 18:07:36 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"SGvEo4Cllsu19CD7KN9pvYXTyfX6mvousJ83sCaRvzE.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTIzMTQ4MDAsImlzc3VlZF9hdCI6MTM1MjMwODA1NSwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQUFuSUdTYlkwRGZuVUJqQTVSUHBRamU0akZXbTcwU3Z2VW0wQU1qa3V6N2lpNUdLZHF5RTRpWkFIM2ZpYmo2RVBmRGR6eEJmNGtucm1weHF6WkNDUU9RQU85RlFaRFpEIiwidXNlciI6eyJjb3VudHJ5IjoiZXMiLCJsb2NhbGUiOiJlc19MQSIsImFnZSI6eyJtaW4iOjIxfX0sInVzZXJfaWQiOiI1OTAwNjQwODUifQ", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"2_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCAi4uDKO_gxZnav0coYLNrUbuvC3Ft0uRjQWCENrjutTR7YXLNkMzs_Tl-UnlfuiJ3dF5ZAl_YpqKkjFqFaqmSLpcFa0CESnpLOHUaa1Z1kdLQ2KtXjab96NT9oteHnvnr5NNoFmmtpXLQL_BibiJQ7nrIH8nNPoRsWW_NKab6ySEYxfm5_jDXGDBACgz5-3wDNelljdzO8EjCeQq8zoAP" for 127.0.0.1 at 2012-11-07 18:07:38 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCAi4uDKO_gxZnav0coYLNrUbuvC3Ft0uRjQWCENrjutTR7YXLNkMzs_Tl-UnlfuiJ3dF5ZAl_YpqKkjFqFaqmSLpcFa0CESnpLOHUaa1Z1kdLQ2KtXjab96NT9oteHnvnr5NNoFmmtpXLQL_BibiJQ7nrIH8nNPoRsWW_NKab6ySEYxfm5_jDXGDBACgz5-3wDNelljdzO8EjCeQq8zoAP"}
+Completed   in 61324ms
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=2_0" for 127.0.0.1 at 2012-11-07 18:09:16 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"1Ok_ZHR4_Wc4S8k_DzhCoZfVYo0L3kjDg0BXwNp_qeU.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTIzMTQ4MDAsImlzc3VlZF9hdCI6MTM1MjMwODE1Niwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQUFuSUdTYlkwRGZuVUJqQTVSUHBRamU0akZXbTcwU3Z2VW0wQU1qa3V6N2lpNUdLZHF5RTRpWkFIM2ZpYmo2RVBmRGR6eEJmNGtucm1weHF6WkNDUU9RQU85RlFaRFpEIiwidXNlciI6eyJjb3VudHJ5IjoiZXMiLCJsb2NhbGUiOiJlc19MQSIsImFnZSI6eyJtaW4iOjIxfX0sInVzZXJfaWQiOiI1OTAwNjQwODUifQ", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"2_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (20.4ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBPW72Et3UiZESm1Y2AodRQgUDboXq3DA7lUf1C6Enp0qyWEEfSk8YQbCUGxatDISZDygD6RMCYD0H8jkP62l0c27tBP3NwqQU3I52qozI4Bfqm-1N4w7g05TIrMZUSVVvTmoHj5ToyX7YwImY4V3MaQUKYnpyokWtpRz4ssmuiLdqaKuc4RZsT0_wJKQ3j8BBRumQg2U34gGSbkfIGNG9r" for 127.0.0.1 at 2012-11-07 18:09:19 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBPW72Et3UiZESm1Y2AodRQgUDboXq3DA7lUf1C6Enp0qyWEEfSk8YQbCUGxatDISZDygD6RMCYD0H8jkP62l0c27tBP3NwqQU3I52qozI4Bfqm-1N4w7g05TIrMZUSVVvTmoHj5ToyX7YwImY4V3MaQUKYnpyokWtpRz4ssmuiLdqaKuc4RZsT0_wJKQ3j8BBRumQg2U34gGSbkfIGNG9r"}
+Rendered home/callback.html.erb within layouts/home (3.0ms)
+Completed 200 OK in 103403ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=2_0" for 127.0.0.1 at 2012-11-07 18:12:38 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"3-4cv7xL_bsL1kKyX6ensReLwhqOuuRLCjNw5_WK6rE.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTIzMTQ4MDAsImlzc3VlZF9hdCI6MTM1MjMwODM1OCwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQUFuSUdTYlkwRGZuVUJqQTVSUHBRamU0akZXbTcwU3Z2VW0wQU1qa3V6N2lpNUdLZHF5RTRpWkFIM2ZpYmo2RVBmRGR6eEJmNGtucm1weHF6WkNDUU9RQU85RlFaRFpEIiwidXNlciI6eyJjb3VudHJ5IjoiZXMiLCJsb2NhbGUiOiJlc19MQSIsImFnZSI6eyJtaW4iOjIxfX0sInVzZXJfaWQiOiI1OTAwNjQwODUifQ", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"2_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (19.3ms)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDLhVGwh8HY4kXG3FX6-E50xqSlk3VAA10ZqKEr7vbIZ7_XlIBDvZJujFk3yPYk2jRuoUJjZDZjVsH7FRCZWwvRX35RnmG30974P_Tisa8k1DlO1A596g-o6wHoGRcJ-WgRdsG-me0ludftsQIOo9r6Oi5tq234Zql0E2y5fshaUO6adOOtIrPoqAqi6bFuHIUOcLQYJ7hPsebj8sUUGJgm" for 127.0.0.1 at 2012-11-07 18:12:41 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDLhVGwh8HY4kXG3FX6-E50xqSlk3VAA10ZqKEr7vbIZ7_XlIBDvZJujFk3yPYk2jRuoUJjZDZjVsH7FRCZWwvRX35RnmG30974P_Tisa8k1DlO1A596g-o6wHoGRcJ-WgRdsG-me0ludftsQIOo9r6Oi5tq234Zql0E2y5fshaUO6adOOtIrPoqAqi6bFuHIUOcLQYJ7hPsebj8sUUGJgm"}
+Rendered home/callback.html.erb within layouts/home (5.0ms)
+Completed 200 OK in 103302ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=2_0" for 127.0.0.1 at 2012-11-07 19:02:45 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"5vHFELXuWH7ztg0zNtvJMrUBpuidZzXyGWac7iFkloI.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTIzMTg0MDAsImlzc3VlZF9hdCI6MTM1MjMxMTM2NSwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQVBaQTVQeGgxU1Zwd3hmaXRtRkxpQWduSmZvWkJYQlg5TEN6ajF1T3AwdEo5aTdYa21ZUVVqZFNSajZpanpOSjhMVXUzdDJHT2JFSGxaQ3RJRlZWejJPaHhBVzJRWkRaRCIsInVzZXIiOnsiY291bnRyeSI6ImVzIiwibG9jYWxlIjoiZXNfTEEiLCJhZ2UiOnsibWluIjoyMX19LCJ1c2VyX2lkIjoiNTkwMDY0MDg1In0", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"2_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (20.1ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDSQVTJZp79nyOXyq1Lx9WPHWNkP9RQr72NsnvPjtPjDufjtbdCXMhgyVY3_SR45wLSGk5Gcf2BoNkpVFBU5QH3WOychP7dIhAvYLRJ8mlkNU6jKM5oi25HzCb2MYMd2xAeb9WLRguMz0TmMdmxsMpWdb2ey5JYV36UacBB7-flu8M1DWIq3RJtvRTvQFb8NuF7AgcvwY7b0pAAblMm5i8o" for 127.0.0.1 at 2012-11-07 19:02:49 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDSQVTJZp79nyOXyq1Lx9WPHWNkP9RQr72NsnvPjtPjDufjtbdCXMhgyVY3_SR45wLSGk5Gcf2BoNkpVFBU5QH3WOychP7dIhAvYLRJ8mlkNU6jKM5oi25HzCb2MYMd2xAeb9WLRguMz0TmMdmxsMpWdb2ey5JYV36UacBB7-flu8M1DWIq3RJtvRTvQFb8NuF7AgcvwY7b0pAAblMm5i8o"}
+Rendered home/callback.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 62042ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=2_0" for 127.0.0.1 at 2012-11-07 19:04:18 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"pgPBR25tR1ddJ5bNVFaHhotjiB_NuzUZVqknOYKdTjY.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTIzMTg0MDAsImlzc3VlZF9hdCI6MTM1MjMxMTQ1OCwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQVBaQTVQeGgxU1Zwd3hmaXRtRkxpQWduSmZvWkJYQlg5TEN6ajF1T3AwdEo5aTdYa21ZUVVqZFNSajZpanpOSjhMVXUzdDJHT2JFSGxaQ3RJRlZWejJPaHhBVzJRWkRaRCIsInVzZXIiOnsiY291bnRyeSI6ImVzIiwibG9jYWxlIjoiZXNfTEEiLCJhZ2UiOnsibWluIjoyMX19LCJ1c2VyX2lkIjoiNTkwMDY0MDg1In0", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"2_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (21.6ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBFJYwrpymghEVpoBU_udKF2Apn9faQF5iqdm9QlPDk_9D4-WpwjbgwbnsBGWctqQfQlLxeTPLuJj5BRREWk7qt85Ue74FJlLSR7ERyG7d05mFIT2wqmdq5Hx04WJ8Q_vkQmnXcliZOZcVHhfASRueB89OTdDQyZUbIt8jze6b0Wht_P_dcKUvhMpJAAnPzPAa1zwuNmXDH45Il5Ik4OijB" for 127.0.0.1 at 2012-11-07 19:04:33 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBFJYwrpymghEVpoBU_udKF2Apn9faQF5iqdm9QlPDk_9D4-WpwjbgwbnsBGWctqQfQlLxeTPLuJj5BRREWk7qt85Ue74FJlLSR7ERyG7d05mFIT2wqmdq5Hx04WJ8Q_vkQmnXcliZOZcVHhfASRueB89OTdDQyZUbIt8jze6b0Wht_P_dcKUvhMpJAAnPzPAa1zwuNmXDH45Il5Ik4OijB"}
+Rendered home/callback.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 62003ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=2_0" for 127.0.0.1 at 2012-11-07 19:06:51 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"FzqDOvzP109FxQcJ3RO35BgMJEIlotQoFNWgBTIpzrw.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTIzMTg0MDAsImlzc3VlZF9hdCI6MTM1MjMxMTYxMSwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQVBaQTVQeGgxU1Zwd3hmaXRtRkxpQWduSmZvWkJYQlg5TEN6ajF1T3AwdEo5aTdYa21ZUVVqZFNSajZpanpOSjhMVXUzdDJHT2JFSGxaQ3RJRlZWejJPaHhBVzJRWkRaRCIsInVzZXIiOnsiY291bnRyeSI6ImVzIiwibG9jYWxlIjoiZXNfTEEiLCJhZ2UiOnsibWluIjoyMX19LCJ1c2VyX2lkIjoiNTkwMDY0MDg1In0", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"2_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (19.2ms)
+Completed 200 OK in 29ms (Views: 28.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBKD1czaAhtaMZpfG6DhF9fwnC__Xfywv8fG_1OEuYGGYee38gglWwYubonCRpi9vptVxSMM5182jFI3YZxJCbWd_CGTMiSarAJR4i0UjScw5E8UZ7L6rwf5x4Cupj_e4t4khSXghHPRaLis-X5ZRPZKx0YlzuuTif98PXWfMJS3tN13ZNmwNhg2IBv5TVi-2ngSLHeUYlXwqptg7taswMv" for 127.0.0.1 at 2012-11-07 19:07:10 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBKD1czaAhtaMZpfG6DhF9fwnC__Xfywv8fG_1OEuYGGYee38gglWwYubonCRpi9vptVxSMM5182jFI3YZxJCbWd_CGTMiSarAJR4i0UjScw5E8UZ7L6rwf5x4Cupj_e4t4khSXghHPRaLis-X5ZRPZKx0YlzuuTif98PXWfMJS3tN13ZNmwNhg2IBv5TVi-2ngSLHeUYlXwqptg7taswMv"}
+Rendered home/callback.html.erb within layouts/home (0.7ms)
+Completed 200 OK in 62003ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=2_0" for 127.0.0.1 at 2012-11-07 19:13:33 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"vfo4_bfRsvD_MS1ii8cu9XKIoNvsIUhaG6o_0QRNcZA.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTIzMTg0MDAsImlzc3VlZF9hdCI6MTM1MjMxMjAxMywib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQVBaQTVQeGgxU1Zwd3hmaXRtRkxpQWduSmZvWkJYQlg5TEN6ajF1T3AwdEo5aTdYa21ZUVVqZFNSajZpanpOSjhMVXUzdDJHT2JFSGxaQ3RJRlZWejJPaHhBVzJRWkRaRCIsInVzZXIiOnsiY291bnRyeSI6ImVzIiwibG9jYWxlIjoiZXNfTEEiLCJhZ2UiOnsibWluIjoyMX19LCJ1c2VyX2lkIjoiNTkwMDY0MDg1In0", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"2_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (19.2ms)
+Completed 200 OK in 29ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBSVLjyh9F2QJhFfZN7uNQ_50pvlEnnZ24OUnM50Nn0tS24XpOrOrXyq9_6LFz_KQJk0jQLuzi4zV3dPovLhVIo-upjCa3yS4BOm28RdRDPy2CrImG6gCTPh6Dzh4iaOjUoaT-Xu7QCIkk5wW2TsJC3GixM91xiop4kn1K-_uIiajPoT0N3pc3BB_JPUVVTN0xAQ0m3T5-ALQJRqwxlFY6_" for 127.0.0.1 at 2012-11-07 19:13:46 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBSVLjyh9F2QJhFfZN7uNQ_50pvlEnnZ24OUnM50Nn0tS24XpOrOrXyq9_6LFz_KQJk0jQLuzi4zV3dPovLhVIo-upjCa3yS4BOm28RdRDPy2CrImG6gCTPh6Dzh4iaOjUoaT-Xu7QCIkk5wW2TsJC3GixM91xiop4kn1K-_uIiajPoT0N3pc3BB_JPUVVTN0xAQ0m3T5-ALQJRqwxlFY6_"}
+Rendered home/callback.html.erb within layouts/home (13.3ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    1: Looping through your statuses:<br />
+    2: <ul>
+    3: 
+    4: <% @graph_data.each do |status| %>
+    5: <%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    6: <% end %>
+    7: 
+  app/views/home/callback.html.erb:4:in `_app_views_home_callback_html_erb__1621299516952464277_19891740'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.9ms)
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=2_0" for 127.0.0.1 at 2012-11-07 19:17:26 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"rW4RZQFxUL0D-ufWIZgo8SExxiXcbPQ3338l9CMThBU.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTIzMTg0MDAsImlzc3VlZF9hdCI6MTM1MjMxMjI0Niwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQVBaQTVQeGgxU1Zwd3hmaXRtRkxpQWduSmZvWkJYQlg5TEN6ajF1T3AwdEo5aTdYa21ZUVVqZFNSajZpanpOSjhMVXUzdDJHT2JFSGxaQ3RJRlZWejJPaHhBVzJRWkRaRCIsInVzZXIiOnsiY291bnRyeSI6ImVzIiwibG9jYWxlIjoiZXNfTEEiLCJhZ2UiOnsibWluIjoyMX19LCJ1c2VyX2lkIjoiNTkwMDY0MDg1In0", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"2_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (2.1ms)
+Completed 200 OK in 20342ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=2_0" for 127.0.0.1 at 2012-11-07 19:19:58 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"HQbrj8kbfde3M9Y7aXZttcn1YYcb7GerygGwBRAVtDM.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTIzMTg0MDAsImlzc3VlZF9hdCI6MTM1MjMxMjM5OCwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQVBaQTVQeGgxU1Zwd3hmaXRtRkxpQWduSmZvWkJYQlg5TEN6ajF1T3AwdEo5aTdYa21ZUVVqZFNSajZpanpOSjhMVXUzdDJHT2JFSGxaQ3RJRlZWejJPaHhBVzJRWkRaRCIsInVzZXIiOnsiY291bnRyeSI6ImVzIiwibG9jYWxlIjoiZXNfTEEiLCJhZ2UiOnsibWluIjoyMX19LCJ1c2VyX2lkIjoiNTkwMDY0MDg1In0", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"2_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (2.1ms)
+Completed 200 OK in 20375ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=2_0" for 127.0.0.1 at 2012-11-07 19:21:22 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"Q7bR0g-3-LdZTcRhGqnWEr_hdvzd-1_b_agWamlJm3w.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTIzMTg0MDAsImlzc3VlZF9hdCI6MTM1MjMxMjQ4Miwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQVBaQTVQeGgxU1Zwd3hmaXRtRkxpQWduSmZvWkJYQlg5TEN6ajF1T3AwdEo5aTdYa21ZUVVqZFNSajZpanpOSjhMVXUzdDJHT2JFSGxaQ3RJRlZWejJPaHhBVzJRWkRaRCIsInVzZXIiOnsiY291bnRyeSI6ImVzIiwibG9jYWxlIjoiZXNfTEEiLCJhZ2UiOnsibWluIjoyMX19LCJ1c2VyX2lkIjoiNTkwMDY0MDg1In0", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"2_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 20359ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=2_0" for 127.0.0.1 at 2012-11-07 19:22:52 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"F-aHWJYDjSP6dr7mEC3c0Qg2YGHqjH0l_k02UzFzAo8.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTIzMTg0MDAsImlzc3VlZF9hdCI6MTM1MjMxMjU3Miwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQVBaQTVQeGgxU1Zwd3hmaXRtRkxpQWduSmZvWkJYQlg5TEN6ajF1T3AwdEo5aTdYa21ZUVVqZFNSajZpanpOSjhMVXUzdDJHT2JFSGxaQ3RJRlZWejJPaHhBVzJRWkRaRCIsInVzZXIiOnsiY291bnRyeSI6ImVzIiwibG9jYWxlIjoiZXNfTEEiLCJhZ2UiOnsibWluIjoyMX19LCJ1c2VyX2lkIjoiNTkwMDY0MDg1In0", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"2_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 20305ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=2_0" for 127.0.0.1 at 2012-11-07 19:24:33 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"zAwE8WeAp_pgK-rc8Z2j5T7Nvbr2bPaYIfeAZf6jNs4.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTIzMTg0MDAsImlzc3VlZF9hdCI6MTM1MjMxMjY3Mywib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQVBaQTVQeGgxU1Zwd3hmaXRtRkxpQWduSmZvWkJYQlg5TEN6ajF1T3AwdEo5aTdYa21ZUVVqZFNSajZpanpOSjhMVXUzdDJHT2JFSGxaQ3RJRlZWejJPaHhBVzJRWkRaRCIsInVzZXIiOnsiY291bnRyeSI6ImVzIiwibG9jYWxlIjoiZXNfTEEiLCJhZ2UiOnsibWluIjoyMX19LCJ1c2VyX2lkIjoiNTkwMDY0MDg1In0", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"2_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQA7XTDTBnpZ8v2yvsMMo8LTZB34uwiEhFBAbiJQ50-OzMCidOdyhc4ptgNWATLjWGow5s7ciTFQzVBwDahTD3eM0XhUBKMDJ6l31xaDYu5aB876bR-6BuDvFSs6qNkgLTGn2Fx3HDJsU0OZrASbpoBZx-615hOMNtbTm0zE5gAGLdjeo_Bt8pvoTMX95kRTDXKxYaA_5IiaMOxkah4DbnXE" for 127.0.0.1 at 2012-11-07 19:24:45 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQA7XTDTBnpZ8v2yvsMMo8LTZB34uwiEhFBAbiJQ50-OzMCidOdyhc4ptgNWATLjWGow5s7ciTFQzVBwDahTD3eM0XhUBKMDJ6l31xaDYu5aB876bR-6BuDvFSs6qNkgLTGn2Fx3HDJsU0OZrASbpoBZx-615hOMNtbTm0zE5gAGLdjeo_Bt8pvoTMX95kRTDXKxYaA_5IiaMOxkah4DbnXE"}
+Rendered home/callback.html.erb within layouts/home (0.9ms)
+Completed 200 OK in 62031ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/?fb_source=bookmark_seeall&ref=bookmarks" for 127.0.0.1 at 2012-11-07 19:28:59 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"Cd0tdtojvZLHQ1w2zumVOTYYk5wlDNl9tqYoQAlNYFw.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTIzMTg0MDAsImlzc3VlZF9hdCI6MTM1MjMxMjkzOSwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQVBaQTVQeGgxU1Zwd3hmaXRtRkxpQWduSmZvWkJYQlg5TEN6ajF1T3AwdEo5aTdYa21ZUVVqZFNSajZpanpOSjhMVXUzdDJHT2JFSGxaQ3RJRlZWejJPaHhBVzJRWkRaRCIsInVzZXIiOnsiY291bnRyeSI6ImVzIiwibG9jYWxlIjoiZXNfTEEiLCJhZ2UiOnsibWluIjoyMX19LCJ1c2VyX2lkIjoiNTkwMDY0MDg1In0", "fb_source"=>"bookmark_seeall", "ref"=>"bookmarks"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=2_0" for 127.0.0.1 at 2012-11-07 19:31:14 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"XstN7YBtgyIcQ8nyC4F3py3xO3zZ8c-zIWgZcVLGqBI.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTIzMTg0MDAsImlzc3VlZF9hdCI6MTM1MjMxMzA3NCwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQVBaQTVQeGgxU1Zwd3hmaXRtRkxpQWduSmZvWkJYQlg5TEN6ajF1T3AwdEo5aTdYa21ZUVVqZFNSajZpanpOSjhMVXUzdDJHT2JFSGxaQ3RJRlZWejJPaHhBVzJRWkRaRCIsInVzZXIiOnsiY291bnRyeSI6ImVzIiwibG9jYWxlIjoiZXNfTEEiLCJhZ2UiOnsibWluIjoyMX19LCJ1c2VyX2lkIjoiNTkwMDY0MDg1In0", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"2_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (18.7ms)
+Completed 200 OK in 28ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBxigeeGtS2mNHSE5dVGm0COxYF9IZKHHgJ7VcoMaacT2eAf37H0h7GkITa6-XvR8TEb9vvsXP-v3iTJWjVFXEd4Hu-DwQfVofvgKlMdpSGr-6uIxJLZpt7ouZIxaHK_wmySTJha3v6m7ulUmfGYDjt0DaBJso-wZ0bHOqwvfXS9DiLEbyqBLc1JqM8ydoyI5h679AYQZ8821hDcJssZC8d" for 127.0.0.1 at 2012-11-07 19:31:40 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBxigeeGtS2mNHSE5dVGm0COxYF9IZKHHgJ7VcoMaacT2eAf37H0h7GkITa6-XvR8TEb9vvsXP-v3iTJWjVFXEd4Hu-DwQfVofvgKlMdpSGr-6uIxJLZpt7ouZIxaHK_wmySTJha3v6m7ulUmfGYDjt0DaBJso-wZ0bHOqwvfXS9DiLEbyqBLc1JqM8ydoyI5h679AYQZ8821hDcJssZC8d"}
+Rendered home/callback.html.erb within layouts/home (0.9ms)
+Completed 200 OK in 61993ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBxigeeGtS2mNHSE5dVGm0COxYF9IZKHHgJ7VcoMaacT2eAf37H0h7GkITa6-XvR8TEb9vvsXP-v3iTJWjVFXEd4Hu-DwQfVofvgKlMdpSGr-6uIxJLZpt7ouZIxaHK_wmySTJha3v6m7ulUmfGYDjt0DaBJso-wZ0bHOqwvfXS9DiLEbyqBLc1JqM8ydoyI5h679AYQZ8821hDcJssZC8d" for 127.0.0.1 at 2012-11-07 19:33:41 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBxigeeGtS2mNHSE5dVGm0COxYF9IZKHHgJ7VcoMaacT2eAf37H0h7GkITa6-XvR8TEb9vvsXP-v3iTJWjVFXEd4Hu-DwQfVofvgKlMdpSGr-6uIxJLZpt7ouZIxaHK_wmySTJha3v6m7ulUmfGYDjt0DaBJso-wZ0bHOqwvfXS9DiLEbyqBLc1JqM8ydoyI5h679AYQZ8821hDcJssZC8d"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 61989ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-08 09:41:17 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (19.6ms)
+Completed 200 OK in 45ms (Views: 28.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-08 09:41:18 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-08 09:41:18 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/home/callback?code=AQCiX4CcEH8JVGt2mYpEqoHe8wCSxXXh0pDHs1K1x2567OlwQA6ULRBuMyFPx_Fx_pmjGYhaV788e7tIKSTrc7vFyCa6GbqCzfqrTVRfmAEC-R9r_sTIVfvdIwxAGajo4urUhsPdw0oeJrR_9LcsEHAXYz3nb7-ppydbN9y_Uz2V-0AxhUed9fDrQ-tAucGF-9dMwxEmafu17BIT6xZ9mOOF" for 127.0.0.1 at 2012-11-08 09:41:42 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCiX4CcEH8JVGt2mYpEqoHe8wCSxXXh0pDHs1K1x2567OlwQA6ULRBuMyFPx_Fx_pmjGYhaV788e7tIKSTrc7vFyCa6GbqCzfqrTVRfmAEC-R9r_sTIVfvdIwxAGajo4urUhsPdw0oeJrR_9LcsEHAXYz3nb7-ppydbN9y_Uz2V-0AxhUed9fDrQ-tAucGF-9dMwxEmafu17BIT6xZ9mOOF"}
+Rendered home/callback.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 61983ms (Views: 3.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-08 09:42:45 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-08 09:42:45 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-09 18:43:53 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (25.8ms)
+Completed 200 OK in 78ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-11-09 18:43:53 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-09 18:43:54 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-09 18:43:54 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-11-09 18:43:54 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/home/callback?code=AQDUupc0APB8v45KSUTn1VPSV_ckc4YfGoZWROy80b-U2jW-IOa093-4SGRsIQ5-5eJ6ocu02m1iBop3vjzWLqV_jAUyjsiR7PL6Kue_kZtukdONq9BvZJHumuQyBTpNXz6PIZ9EAmo8tF1fbMxRXq8Pv01lLDweqz3kWDiicS675zVH7UV8VgLaXYDnANyoUJ9ZiG-Sox6JzLZYTDhqzeGh" for 127.0.0.1 at 2012-11-09 18:44:04 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDUupc0APB8v45KSUTn1VPSV_ckc4YfGoZWROy80b-U2jW-IOa093-4SGRsIQ5-5eJ6ocu02m1iBop3vjzWLqV_jAUyjsiR7PL6Kue_kZtukdONq9BvZJHumuQyBTpNXz6PIZ9EAmo8tF1fbMxRXq8Pv01lLDweqz3kWDiicS675zVH7UV8VgLaXYDnANyoUJ9ZiG-Sox6JzLZYTDhqzeGh"}
+Rendered home/callback.html.erb within layouts/home (0.9ms)
+Completed 200 OK in 2292ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-09 18:44:06 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/robots.txt" for 127.0.0.1 at 2012-11-09 18:44:06 +0100
+
+ActionController::RoutingError (No route matches [GET] "/robots.txt"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started POST "/?fb_source=bookmark_apps&ref=bookmarks&count=0&fb_bmpos=2_0" for 127.0.0.1 at 2012-11-09 18:46:32 +0100
+  Processing by HomeController#index as HTML
+  Parameters: {"signed_request"=>"2gDzHLNYfCvHmv0CpuJd7W9Qpr-lCiUE9Hl72SXx6e0.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImV4cGlyZXMiOjEzNTI0ODc2MDAsImlzc3VlZF9hdCI6MTM1MjQ4MzE5Miwib2F1dGhfdG9rZW4iOiJBQUFFRWxtQW1uN2NCQUpsem5iTkFLUElaQVltRUtQY1RjTTRzcVhYdmJ1bzU2elNjMVhROWFTbU9MQWppTlBwVTN6ck9SUG94TVFWeXVkc1E3V2pCb0w1dHpLUzl0UmRYN1RTcXJLUVpEWkQiLCJ1c2VyIjp7ImNvdW50cnkiOiJlcyIsImxvY2FsZSI6ImVzX0xBIiwiYWdlIjp7Im1pbiI6MjF9fSwidXNlcl9pZCI6IjU5MDA2NDA4NSJ9", "fb_source"=>"bookmark_apps", "ref"=>"bookmarks", "count"=>"0", "fb_bmpos"=>"2_0"}
+WARNING: Can't verify CSRF token authenticity
+Rendered home/index.html.erb within layouts/home (0.2ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBVVL53YPfbByVpp5u7V-UPn6Ky-UP-XyH-jSLU0V39h0mFCtfte80yvbBYNKNKN5PYeYsnBcQqrHMJNEXbh09NIBAao6m41pTp6z40a1cV6LZhFFnui9_FrI96CLtSsf9zeKlho_KbqTDdtLRmwsxZPBloLd2WEHOuH_gDog-uz-b2qmi_hdAxELfs1Ur6FJQkImkfgfJ6-JF466WRKKEo" for 127.0.0.1 at 2012-11-09 18:46:35 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBVVL53YPfbByVpp5u7V-UPn6Ky-UP-XyH-jSLU0V39h0mFCtfte80yvbBYNKNKN5PYeYsnBcQqrHMJNEXbh09NIBAao6m41pTp6z40a1cV6LZhFFnui9_FrI96CLtSsf9zeKlho_KbqTDdtLRmwsxZPBloLd2WEHOuH_gDog-uz-b2qmi_hdAxELfs1Ur6FJQkImkfgfJ6-JF466WRKKEo"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 2175ms (Views: 2.9ms | ActiveRecord: 0.0ms)
