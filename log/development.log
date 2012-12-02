@@ -1661,3 +1661,877 @@ Started GET "/home/callback?code=AQBVVL53YPfbByVpp5u7V-UPn6Ky-UP-XyH-jSLU0V39h0m
   Parameters: {"code"=>"AQBVVL53YPfbByVpp5u7V-UPn6Ky-UP-XyH-jSLU0V39h0mFCtfte80yvbBYNKNKN5PYeYsnBcQqrHMJNEXbh09NIBAao6m41pTp6z40a1cV6LZhFFnui9_FrI96CLtSsf9zeKlho_KbqTDdtLRmwsxZPBloLd2WEHOuH_gDog-uz-b2qmi_hdAxELfs1Ur6FJQkImkfgfJ6-JF466WRKKEo"}
 Rendered home/callback.html.erb within layouts/home (0.4ms)
 Completed 200 OK in 2175ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 16:32:29 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (20.7ms)
+Completed 200 OK in 71ms (Views: 70.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQDqF3ZeY2miq5bQyb4waqdNLO3ymlRrULK8OZbW_5jCKOUFR5-tIq58sLimPmWOmy0-MZe9VEOMbolsgOkoaHWxf_nzEqHTnTog2RT8BGMt9XLl8bI1MBb8MP6uCxWaQU5SWLL_6g2NGLUGelLLUYk5sjEgvc9yiqYC6SCwVM-U4e1SoYPlbcbJE8YR616ivr9zMZ9QE6DdF2-08HLAiu6P" for 127.0.0.1 at 2012-11-19 16:32:38 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQDqF3ZeY2miq5bQyb4waqdNLO3ymlRrULK8OZbW_5jCKOUFR5-tIq58sLimPmWOmy0-MZe9VEOMbolsgOkoaHWxf_nzEqHTnTog2RT8BGMt9XLl8bI1MBb8MP6uCxWaQU5SWLL_6g2NGLUGelLLUYk5sjEgvc9yiqYC6SCwVM-U4e1SoYPlbcbJE8YR616ivr9zMZ9QE6DdF2-08HLAiu6P"}
+Rendered home/callback.html.erb within layouts/home (0.8ms)
+Completed 200 OK in 1761ms (Views: 45.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQBUlqefjlPwB5P-TOywWdM2sQIbys9nuZ_ytZXO9iGWHg9qnufZvtXpNAUDS7Oan37bfxqeluMvnoglb2088YTF5cgW--lwQZh7AKDtYXX2aup2PPFcaHXM2Da7HMRDWsHvP92-fTGODAoymI5ocljCbbWC9Cwj4Ri55_LEVToLQvc4mxtadU4ho_Bdb55VDXnyNZdxCI8GHKcHvUTQgstx" for 127.0.0.1 at 2012-11-19 16:32:46 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQBUlqefjlPwB5P-TOywWdM2sQIbys9nuZ_ytZXO9iGWHg9qnufZvtXpNAUDS7Oan37bfxqeluMvnoglb2088YTF5cgW--lwQZh7AKDtYXX2aup2PPFcaHXM2Da7HMRDWsHvP92-fTGODAoymI5ocljCbbWC9Cwj4Ri55_LEVToLQvc4mxtadU4ho_Bdb55VDXnyNZdxCI8GHKcHvUTQgstx"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 1170ms (Views: 2.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 16:54:42 +0100
+  Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Gchart):
+  app/controllers/home_controller.rb:6:in `index'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 16:59:59 +0100
+  Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Gchart):
+  app/controllers/home_controller.rb:6:in `index'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 17:02:23 +0100
+  Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+LoadError (cannot load such file -- googlecharts):
+  app/controllers/home_controller.rb:5:in `index'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 17:04:13 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (3.6ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQChxVH1hX6VnGbyu2OHH2Sufb9HoLPoHJY43MJU1sTiOjAmgWk3s0qbGUEIuyS6b4u9QHSVrKioov-Uajdx5P6o8LOvdS1DddFIaKe9E6pm949S5WXSEPhz_9ZEbcC8X8MOuEVSGuo3NORi5cYUc_6iefzP8TKcJWVH5DhPBvdBS_3Ss4IGT4-FW2eF4ybPGExG3gESIjeYR0FZv_qA5Rg0" for 127.0.0.1 at 2012-11-19 17:04:17 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQChxVH1hX6VnGbyu2OHH2Sufb9HoLPoHJY43MJU1sTiOjAmgWk3s0qbGUEIuyS6b4u9QHSVrKioov-Uajdx5P6o8LOvdS1DddFIaKe9E6pm949S5WXSEPhz_9ZEbcC8X8MOuEVSGuo3NORi5cYUc_6iefzP8TKcJWVH5DhPBvdBS_3Ss4IGT4-FW2eF4ybPGExG3gESIjeYR0FZv_qA5Rg0"}
+Rendered home/callback.html.erb within layouts/home (56.6ms)
+Completed 500 Internal Server Error in 2130ms
+
+ActionView::Template::Error (undefined method `put' for #<#<Class:0x00000003027260>:0x0000000302b748>):
+    1: Looping through your statuses:<br />
+    2: 
+    3: <img src="<%= put @michart %>">kk</img>
+    4: 
+    5: <ul>
+    6: 
+  app/views/home/callback.html.erb:3:in `_app_views_home_callback_html_erb__400800678127597829_25268520'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.2ms)
+
+
+Started GET "/home/callback?code=AQChxVH1hX6VnGbyu2OHH2Sufb9HoLPoHJY43MJU1sTiOjAmgWk3s0qbGUEIuyS6b4u9QHSVrKioov-Uajdx5P6o8LOvdS1DddFIaKe9E6pm949S5WXSEPhz_9ZEbcC8X8MOuEVSGuo3NORi5cYUc_6iefzP8TKcJWVH5DhPBvdBS_3Ss4IGT4-FW2eF4ybPGExG3gESIjeYR0FZv_qA5Rg0" for 127.0.0.1 at 2012-11-19 17:06:50 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQChxVH1hX6VnGbyu2OHH2Sufb9HoLPoHJY43MJU1sTiOjAmgWk3s0qbGUEIuyS6b4u9QHSVrKioov-Uajdx5P6o8LOvdS1DddFIaKe9E6pm949S5WXSEPhz_9ZEbcC8X8MOuEVSGuo3NORi5cYUc_6iefzP8TKcJWVH5DhPBvdBS_3Ss4IGT4-FW2eF4ybPGExG3gESIjeYR0FZv_qA5Rg0"}
+Rendered home/callback.html.erb within layouts/home (2.5ms)
+Completed 200 OK in 7082ms (Views: 28.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 17:06:58 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQC3WRNImtSabOj3sUsQmlEg5xYQt3pnbyoN4IX9e4zI7P2Y_y60CXgfLIdzvuwkRDNoAMLiRC877AfL3ydwCe5eBIaYlo0lwBMpA_EgXhEbDxhTe5vmgaOhpGEzzyRWkHM2LG4DmJmQ7mMhVQBhor6q-Tf0-lCbiCB7lF5oLg-0aQXgHOjatDhnkH9eBUKJvXiz2_LaIuB67HT1zziA_NLV" for 127.0.0.1 at 2012-11-19 17:07:02 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQC3WRNImtSabOj3sUsQmlEg5xYQt3pnbyoN4IX9e4zI7P2Y_y60CXgfLIdzvuwkRDNoAMLiRC877AfL3ydwCe5eBIaYlo0lwBMpA_EgXhEbDxhTe5vmgaOhpGEzzyRWkHM2LG4DmJmQ7mMhVQBhor6q-Tf0-lCbiCB7lF5oLg-0aQXgHOjatDhnkH9eBUKJvXiz2_LaIuB67HT1zziA_NLV"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 29828ms (Views: 3.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQC3WRNImtSabOj3sUsQmlEg5xYQt3pnbyoN4IX9e4zI7P2Y_y60CXgfLIdzvuwkRDNoAMLiRC877AfL3ydwCe5eBIaYlo0lwBMpA_EgXhEbDxhTe5vmgaOhpGEzzyRWkHM2LG4DmJmQ7mMhVQBhor6q-Tf0-lCbiCB7lF5oLg-0aQXgHOjatDhnkH9eBUKJvXiz2_LaIuB67HT1zziA_NLV" for 127.0.0.1 at 2012-11-19 17:08:24 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQC3WRNImtSabOj3sUsQmlEg5xYQt3pnbyoN4IX9e4zI7P2Y_y60CXgfLIdzvuwkRDNoAMLiRC877AfL3ydwCe5eBIaYlo0lwBMpA_EgXhEbDxhTe5vmgaOhpGEzzyRWkHM2LG4DmJmQ7mMhVQBhor6q-Tf0-lCbiCB7lF5oLg-0aQXgHOjatDhnkH9eBUKJvXiz2_LaIuB67HT1zziA_NLV"}
+Rendered home/callback.html.erb within layouts/home (2.6ms)
+Completed 200 OK in 4104ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 17:08:28 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.6ms)
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQD-oimFj0KfPsOPwGPOnTWj6kubYiVRAwYbFFDAhDmdh7Cyem2jdr24f-Wy8rC77z70gAIYDnjM6AbCjAZKNVpcp4OseqEeWGs7s3Tolq2xJLIomckppTnGRjK0v2-oLXwDNr9PhbdsD7dE1qfC56yWGZIRYd1pgTlM7L_AkHD2XNVXTGyrwTTbcH_ySFWF1gWQ9P5ZRdsjSiopa99JYogY" for 127.0.0.1 at 2012-11-19 17:08:35 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQD-oimFj0KfPsOPwGPOnTWj6kubYiVRAwYbFFDAhDmdh7Cyem2jdr24f-Wy8rC77z70gAIYDnjM6AbCjAZKNVpcp4OseqEeWGs7s3Tolq2xJLIomckppTnGRjK0v2-oLXwDNr9PhbdsD7dE1qfC56yWGZIRYd1pgTlM7L_AkHD2XNVXTGyrwTTbcH_ySFWF1gWQ9P5ZRdsjSiopa99JYogY"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 1842ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 17:11:05 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (3.5ms)
+Completed 200 OK in 31ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 17:12:08 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.2ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 18:02:31 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.2ms)
+Completed 200 OK in 132ms (Views: 131.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 18:32:08 +0100
+
+ActionController::RoutingError (uninitialized constant ApplicationHelper::Stock::Mongoid):
+  app/helpers/application_helper.rb:5:in `<class:Stock>'
+  app/helpers/application_helper.rb:4:in `<module:ApplicationHelper>'
+  app/helpers/application_helper.rb:1:in `<top (required)>'
+  app/controllers/home_controller.rb:1:in `<top (required)>'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (18.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 18:35:41 +0100
+  Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Stock):
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 18:37:37 +0100
+  Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant HomeController::Stock):
+  app/controllers/home_controller.rb:11:in `index'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 18:40:36 +0100
+  Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+Mongoid::Errors::NoSessionsConfig (
+Problem:
+  No sessions configuration provided.
+Summary:
+  Mongoid's configuration requires that you provide details about each session that can be connected to, and requires in the sessions config at least 1 default session to exist.
+Resolution:
+  Double check your mongoid.yml to make sure that you have a top-level sessions key with at least 1 default session configuration for it. You can regenerate a new mongoid.yml for assistance via `rails g mongoid:config`.
+
+ Example:
+   development:
+     sessions:
+       default:
+         database: mongoid_dev
+         hosts:
+           - localhost:27017
+
+):
+  app/controllers/home_controller.rb:9:in `index'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 18:55:28 +0100
+  Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+NoMethodError (undefined method `create' for Home:Class):
+  app/controllers/home_controller.rb:9:in `index'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 18:57:15 +0100
+  Processing by HomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9665ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8779ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8035ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0147ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8450ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8092ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.7617ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (21.6811ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.7865ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0276ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8636ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9344ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.6878ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9682ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.7923ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0445ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.7725ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9995ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9208ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9665ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.1253ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9646ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9065ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0490ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8194ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9363ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.4839ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0219ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8481ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9501ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8252ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0102ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8132ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9649ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8347ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (20.8797ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8934ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0257ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8359ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9959ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.7908ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0448ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8664ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9422ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.7501ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9692ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8512ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9811ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8750ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0121ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.7169ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0684ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.7865ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0695ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9673ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.1876ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9680ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.9179ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.7370ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0617ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8972ms)
+Completed 500 Internal Server Error in 30111ms
+
+Moped::Errors::ConnectionFailure (Could not connect to a primary node for replica set <Moped::Cluster nodes=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+  app/controllers/home_controller.rb:9:in `index'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 18:58:27 +0100
+  Processing by HomeController#index as HTML
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (60454.9563ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (60026.6042ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (60024.8418ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (60027.6141ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (30088.0146ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (60453.0852ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (60029.1312ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (60029.0048ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (60026.8438ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (60027.9047ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (30014.0336ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (0.9656ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (0.8380ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (0.9947ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (0.8416ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (1.0056ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (0.7420ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (0.9949ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (0.8411ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (0.9704ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (0.7489ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (0.9868ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (0.7467ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (1.0123ms)
+  MOPED: 127.0.0.1:3000 COMMAND      database=admin command={:ismaster=>1} (0.8221ms)
+Completed   in 613235ms
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 19:08:50 +0100
+  Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 0ms
+
+NoMethodError (undefined method `create' for Home:Class):
+  app/controllers/home_controller.rb:9:in `index'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 19:09:49 +0100
+  Processing by HomeController#index as HTML
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (wrong number of arguments (1 for 2)):
+  app/models/home.rb:3:in `initialize'
+  app/controllers/home_controller.rb:9:in `new'
+  app/controllers/home_controller.rb:9:in `index'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (4.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 19:10:32 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (47.3ms)
+Completed 500 Internal Server Error in 73ms
+
+ActionView::Template::Error (undefined method `all' for Home:Class):
+    2: 	<%= link_to 'imagen graph', @michart, :class=>"button"%>
+    3: 
+    4: 
+    5: 	<%= pie_chart Home.all do |c| %>
+    6: 		<% c.title "Total Stock" %>
+    7: 
+    8: 		<% c.label "Name",    :name %>
+  app/views/home/index.html.erb:5:in `_app_views_home_index_html_erb__4136375934134731423_26587020'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 19:19:43 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (33.7ms)
+Completed 500 Internal Server Error in 60ms
+
+ActionView::Template::Error (undefined method `pie_chart' for #<#<Class:0x00000002203a80>:0x000000025d2b98>):
+    2: 	<%= link_to 'imagen graph', @michart, :class=>"button"%>
+    3: 
+    4: 
+    5: 	<%= pie_chart @frutas do |c| %>
+    6: 		<% c.title "Total Stock" %>
+    7: 
+    8: 		<% c.label "Name",    :name %>
+  app/views/home/index.html.erb:5:in `_app_views_home_index_html_erb___686575998395028992_20992800'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-19 19:20:48 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (7.7ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (undefined method `pie_chart' for GoogleCharts:Module):
+    2: 	<%= link_to 'imagen graph', @michart, :class=>"button"%>
+    3: 
+    4: 
+    5: 	<%= GoogleCharts::pie_chart @frutas do |c| %>
+    6: 		<% c.title "Total Stock" %>
+    7: 
+    8: 		<% c.label "Name",    :name %>
+  app/views/home/index.html.erb:5:in `_app_views_home_index_html_erb__428962246543255183_20701940'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 19:15:57 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (51.8ms)
+Completed 500 Internal Server Error in 101ms
+
+ActionView::Template::Error (undefined method `pie_chart' for GoogleCharts::Charts:Module):
+    2: 	<%= link_to 'imagen graph', @michart, :class=>"button"%>
+    3: 
+    4: 
+    5: 	<%= GoogleCharts::Charts::pie_chart @frutas do |c| %>
+    6: 		<% c.title "Total Stock" %>
+    7: 
+    8: 		<% c.label "Name",    :name %>
+  app/views/home/index.html.erb:5:in `_app_views_home_index_html_erb___4592579741701439135_28413300'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.2ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-11-26 19:15:58 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 19:16:40 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (3.3ms)
+Completed 200 OK in 33ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-11-26 19:16:41 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 19:17:38 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-11-26 19:17:38 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 19:18:31 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-11-26 19:18:31 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 19:19:51 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (3.2ms)
+Completed 200 OK in 32ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-11-26 19:19:51 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 19:20:40 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-11-26 19:20:41 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home/callback%26display%3Dpage%26response_type%3Dcode%26perms%3Dread_stream%252Cpublish_stream%26fbconnect%3D1%26from_login%3D1%26client_id%3D286518881460151&rcount=1" for 127.0.0.1 at 2012-11-26 19:21:56 +0100
+
+ActionController::RoutingError (No route matches [GET] "/home/callback%26display%3Dpage%26response_type%3Dcode%26perms%3Dread_stream%252Cpublish_stream%26fbconnect%3D1%26from_login%3D1%26client_id%3D286518881460151&rcount=1"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.6ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-11-26 19:21:56 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/home/callback/display/page/response_type%3Dcode%26perms%3Dread_stream%252Cpublish_stream%26fbconnect%3D1%26from_login%3D1%26client_id%3D286518881460151&rcount=1" for 127.0.0.1 at 2012-11-26 19:22:19 +0100
+
+ActionController::RoutingError (No route matches [GET] "/home/callback/display/page/response_type%3Dcode%26perms%3Dread_stream%252Cpublish_stream%26fbconnect%3D1%26from_login%3D1%26client_id%3D286518881460151&rcount=1"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-11-26 19:22:19 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/home/callback" for 127.0.0.1 at 2012-11-26 19:22:44 +0100
+  Processing by HomeController#callback as HTML
+Rendered home/callback.html.erb within layouts/home (23.3ms)
+Completed 500 Internal Server Error in 20383ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    3: 
+    4: <ul>
+    5: 
+    6: <% @graph_data.each do |status| %>
+    7: <%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
+    8: <% end %>
+    9: 
+  app/views/home/callback.html.erb:6:in `_app_views_home_callback_html_erb___3747408207235716698_70021057508480'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.6ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-11-26 19:23:05 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-26 19:29:46 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (0.1ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favicon.ico" for 127.0.0.1 at 2012-11-26 19:29:46 +0100
+
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-11-29 13:45:17 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (12.8ms)
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQAu8uYbgk9gVRZKBXpTdn5E8SLusICc7wPklXPfY4GyBxhKHAzEsWYtRtStJmpi4GwsYXpPvLi7VvMQ3qqG_WXY3wxim0qKGNcPhZfnA58xEFjwqw80EctlPxN0PZziZ9Dz8l30nuUJXEbsUjhoo50NYapI3n9dwoVH6XYElm0LWUp7yu8rL11YJqh4tgRpCP9iBcZ7KCwQuJwoYRHGX8G4" for 127.0.0.1 at 2012-11-29 13:45:34 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAu8uYbgk9gVRZKBXpTdn5E8SLusICc7wPklXPfY4GyBxhKHAzEsWYtRtStJmpi4GwsYXpPvLi7VvMQ3qqG_WXY3wxim0qKGNcPhZfnA58xEFjwqw80EctlPxN0PZziZ9Dz8l30nuUJXEbsUjhoo50NYapI3n9dwoVH6XYElm0LWUp7yu8rL11YJqh4tgRpCP9iBcZ7KCwQuJwoYRHGX8G4"}
+Rendered home/callback.html.erb within layouts/home (0.4ms)
+Completed 200 OK in 1395ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-02 18:29:29 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (5.6ms)
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQAu3q7wbzQjWIzw7ddMTFPyknNohFg-DLY1oZ0DYnqUsq1asab6CT1Q0ZF0d-xq8GFAMe2Eh9bU-QhO2QBhNtJGov5romSkO6kMSIlDJ38d20a9nn-5-5Kq1h9v3k8ZVAswimSAA6JlQdFYtxa__Nq0ONnGKxQQjh1aO860vzoUcxnxT-jGIgz95vkUPx7vw4102a4_O0vlI8177ivxUqpn" for 127.0.0.1 at 2012-12-02 18:29:40 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQAu3q7wbzQjWIzw7ddMTFPyknNohFg-DLY1oZ0DYnqUsq1asab6CT1Q0ZF0d-xq8GFAMe2Eh9bU-QhO2QBhNtJGov5romSkO6kMSIlDJ38d20a9nn-5-5Kq1h9v3k8ZVAswimSAA6JlQdFYtxa__Nq0ONnGKxQQjh1aO860vzoUcxnxT-jGIgz95vkUPx7vw4102a4_O0vlI8177ivxUqpn"}
+Rendered home/callback.html.erb within layouts/home (6.7ms)
+Completed 200 OK in 61413ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQB_LUoFBBkZwjINafyE9huAD-JZGoEZ6mU5QiKX1vbkCaUy9z-SwJOCeR_F9U_HmLQR-oF1cs27T1P81EkfghP8oRleDY8lMQnmrmx5vXajN05DzIMyWE6L0xVFp6xOOt54bXymZGO_cmHpxCFkRt-h6GYGLUk8_yiAuEgKiuIwUxszM4Fdk4VfbeiwTzv0lBQn0qicC05DptPrUzx7KYmQ" for 127.0.0.1 at 2012-12-02 18:30:42 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQB_LUoFBBkZwjINafyE9huAD-JZGoEZ6mU5QiKX1vbkCaUy9z-SwJOCeR_F9U_HmLQR-oF1cs27T1P81EkfghP8oRleDY8lMQnmrmx5vXajN05DzIMyWE6L0xVFp6xOOt54bXymZGO_cmHpxCFkRt-h6GYGLUk8_yiAuEgKiuIwUxszM4Fdk4VfbeiwTzv0lBQn0qicC05DptPrUzx7KYmQ"}
+Rendered home/callback.html.erb within layouts/home (5.9ms)
+Completed 200 OK in 61422ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-02 18:34:20 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (2.7ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCdJ005cy34Cg4q_ihj5F-hJm1UwsE578_jfd9s3FkiZfx7d4zkS8uG0brLYR15KmJhMqRPONUxb00LtWJl5i-fMgpeGhCQdFZNKvRX_-bkeRBSg6kLQXAfZP_VxsYCJUEG-2AphNZX646tDz0JxqULr3hjsKBANT0A2ymYQQTGID4qIPUqrawM_44I3ooZJbWlakpjmvGux_ojnY_z4OeY" for 127.0.0.1 at 2012-12-02 18:34:22 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCdJ005cy34Cg4q_ihj5F-hJm1UwsE578_jfd9s3FkiZfx7d4zkS8uG0brLYR15KmJhMqRPONUxb00LtWJl5i-fMgpeGhCQdFZNKvRX_-bkeRBSg6kLQXAfZP_VxsYCJUEG-2AphNZX646tDz0JxqULr3hjsKBANT0A2ymYQQTGID4qIPUqrawM_44I3ooZJbWlakpjmvGux_ojnY_z4OeY"}
+Rendered home/callback.html.erb within layouts/home (6.5ms)
+Completed 200 OK in 1356ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-02 18:38:24 +0100
+  Processing by HomeController#index as HTML
+Rendered home/index.html.erb within layouts/home (20.1ms)
+Completed 200 OK in 30ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf" for 127.0.0.1 at 2012-12-02 18:38:26 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf"}
+ERROR: compiling _app_views_home_callback_html_erb___2266100246933041850_22827460 RAISED /home/kunduby/socialwin/rails/koala-rails-app/app/views/home/callback.html.erb:26: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/kunduby/socialwin/rails/koala-rails-app/app/views/home/callback.html.erb:28: syntax error, unexpected $end, expecting keyword_end
+Function body:           def _app_views_home_callback_html_erb___2266100246933041850_22827460(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "home/callback";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('Looping through your statuses:<br />
+
+
+<ul>	
+');	 @graph_data.each do |reg| 
+@output_buffer.safe_concat('		<li>');@output_buffer.append= (reg);@output_buffer.safe_concat('</li>
+		<ul>
+');			 reg.each do |k, v| 
+@output_buffer.safe_concat('				<li>');@output_buffer.append= (k);@output_buffer.safe_concat(':');@output_buffer.append= (v);@output_buffer.safe_concat('</li>
+		</ul>
+');	 end 
+@output_buffer.safe_concat('</ul>
+
+
+<ul>
+	
+'); @graph_data.each do |status| 
+@output_buffer.append= ( status["message"] );@output_buffer.safe_concat(' (<i>');@output_buffer.append= (status["updated_time"]);@output_buffer.safe_concat('</i>)<hr>
+'); end 
+@output_buffer.safe_concat('
+</ul>
+
+
+
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+Backtrace: /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `module_eval'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/template.rb:282:in `compile'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/template.rb:190:in `compile!'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/template.rb:143:in `block in render'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/notifications.rb:55:in `instrument'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/template.rb:142:in `render'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:40:in `block (2 levels) in render_template'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `block in instrument'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:33:in `instrument'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:39:in `block in render_template'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:47:in `render_with_layout'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:38:in `render_template'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:12:in `block in render'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/renderer/abstract_renderer.rb:22:in `wrap_formats'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/renderer/template_renderer.rb:9:in `render'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:120:in `_render_template'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/streaming.rb:250:in `_render_template'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:114:in `render_to_body'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/renderers.rb:30:in `render_to_body'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/compatibility.rb:43:in `render_to_body'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:99:in `render'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/kunduby/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:78:in `cleanup_view_runtime'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:167:in `process_action'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:416:in `_run__238798161870411762__process_action__2879127015669129954__callbacks'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:386:in `_run_process_action_callbacks'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/rescue.rb:17:in `process_action'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `block in instrument'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/notifications.rb:53:in `instrument'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/params_wrapper.rb:201:in `process_action'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.1.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/abstract_controller/base.rb:121:in `process'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/abstract_controller/rendering.rb:45:in `process'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal.rb:193:in `dispatch'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_controller/metal.rb:236:in `block in action'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:65:in `dispatch'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:29:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:152:in `block in call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:96:in `block in recognize'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:75:in `optimized_each'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/rack-mount-0.8.3/lib/rack/mount/code_generation.rb:95:in `recognize'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/rack-mount-0.8.3/lib/rack/mount/route_set.rb:141:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/routing/route_set.rb:531:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.3.6/lib/rack/etag.rb:23:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.3.6/lib/rack/conditionalget.rb:25:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/flash.rb:243:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:195:in `context'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.3.6/lib/rack/session/abstract/id.rb:190:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/cookies.rb:326:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.1.0/lib/active_record/query_cache.rb:62:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activerecord-3.1.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:477:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:392:in `_run_call_callbacks'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/reloader.rb:68:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.3.6/lib/rack/sendfile.rb:101:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.1.0/lib/rails/rack/logger.rb:13:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.3.6/lib/rack/methodoverride.rb:24:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.3.6/lib/rack/runtime.rb:17:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/activesupport-3.1.0/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.3.6/lib/rack/lock.rb:15:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/static.rb:53:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.1.0/lib/rails/engine.rb:455:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.1.0/lib/rails/rack/content_length.rb:16:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/railties-3.1.0/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/rack-1.3.6/lib/rack/handler/webrick.rb:59:in `service'
+/home/kunduby/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+/home/kunduby/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+/home/kunduby/.rvm/rubies/ruby-1.9.3-p194/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+Rendered home/callback.html.erb within layouts/home (127.3ms)
+Completed 500 Internal Server Error in 1417ms
+
+ActionView::Template::Error (/home/kunduby/socialwin/rails/koala-rails-app/app/views/home/callback.html.erb:26: syntax error, unexpected keyword_ensure, expecting keyword_end
+/home/kunduby/socialwin/rails/koala-rails-app/app/views/home/callback.html.erb:28: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.3ms)
+
+
+Started GET "/home/callback?code=AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf" for 127.0.0.1 at 2012-12-02 18:38:58 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf"}
+Rendered home/callback.html.erb within layouts/home (8.3ms)
+Completed 200 OK in 1407ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf" for 127.0.0.1 at 2012-12-02 18:39:16 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf"}
+Rendered home/callback.html.erb within layouts/home (2.2ms)
+Completed 200 OK in 1367ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf" for 127.0.0.1 at 2012-12-02 18:39:49 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf"}
+Rendered home/callback.html.erb within layouts/home (6.9ms)
+Completed 200 OK in 1319ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf" for 127.0.0.1 at 2012-12-02 18:40:49 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf"}
+Rendered home/callback.html.erb within layouts/home (5.4ms)
+Completed 200 OK in 1256ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf" for 127.0.0.1 at 2012-12-02 19:36:19 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf"}
+Rendered home/callback.html.erb within layouts/home (1.9ms)
+Completed 200 OK in 1314ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf" for 127.0.0.1 at 2012-12-02 19:36:55 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf"}
+Rendered home/callback.html.erb within layouts/home (1.2ms)
+Completed 200 OK in 2096ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf" for 127.0.0.1 at 2012-12-02 19:37:35 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf"}
+Rendered home/callback.html.erb within layouts/home (0.3ms)
+Completed 500 Internal Server Error in 731ms
+
+ActionView::Template::Error (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.each):
+    2: 
+    3: 
+    4: <ul>	
+    5: 	<% @graph_data.each do |reg| %>
+    6: 		<li><%=reg["id"]%></li>
+    7: 		<ul>
+    8: 			<% reg.each do |k, v| %>
+  app/views/home/callback.html.erb:5:in `_app_views_home_callback_html_erb___2266100246933041850_70186817446760'
+
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+Rendered /home/kunduby/.rvm/gems/ruby-1.9.3-p194/gems/actionpack-3.1.0/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (3.1ms)
+
+
+Started GET "/home/callback?code=AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf" for 127.0.0.1 at 2012-12-02 19:37:50 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf"}
+Rendered home/callback.html.erb within layouts/home (4.1ms)
+Completed 200 OK in 1813ms (Views: 6.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf" for 127.0.0.1 at 2012-12-02 19:44:02 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf"}
+Rendered home/callback.html.erb within layouts/home (4.6ms)
+Completed 200 OK in 1824ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf" for 127.0.0.1 at 2012-12-02 19:44:56 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf"}
+Rendered home/callback.html.erb within layouts/home (4.6ms)
+Completed 200 OK in 2010ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf" for 127.0.0.1 at 2012-12-02 19:45:22 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf"}
+Rendered home/callback.html.erb within layouts/home (4.6ms)
+Completed 200 OK in 2037ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/callback?code=AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf" for 127.0.0.1 at 2012-12-02 19:47:36 +0100
+  Processing by HomeController#callback as HTML
+  Parameters: {"code"=>"AQCOEH4evuq74eJjREULA2cEPsbVoYSeF1kiK_IMvl9bpubMGHrcXE6KSy4q23CJK9OcxnID4mLIx7ipuVLVlbCSvmp3lXjEF4BIYQwMa9CufdOXvLXZ7-TQKvrpzVurhpfH2ixHn_cM6jpAwJGbiXhgro1JHJrfd7vJTeQY_AtOVSQDZ_5bCkd_suNdrL6YlX0cMMLh34dDT_nJB6sDM3Tf"}
+Rendered home/callback.html.erb within layouts/home (4.8ms)
+Completed 200 OK in 1826ms (Views: 7.4ms | ActiveRecord: 0.0ms)

@@ -1,10 +1,23 @@
-Looping through your statuses:<br />
-<ul>
+Loop de mensajes de tu muro:<br />
 
-<% @graph_data.each do |status| %>
-<%= status["message"] %> (<i><%=status["updated_time"]%></i>)<hr>
-<% end %>
 
+<ul>	
+	<% @graph_data.each do |reg| %>
+		<li><%=reg["id"]%>
+			<% if reg.has_key?("comments") %>
+				<% if reg["comments"]["count"] > 0 %>
+					(Tiene <%= reg["comments"]["count"] %> comentarios).
+				<% else %>
+					(Sin comentarios).
+				<% end %>
+			<% end %>
+		</li>
+		<ul>	
+			<% reg.each do |k, v| %>
+				<li><%=k%>: <%=v%></li>
+			<% end %>
+		</ul>
+	<% end %>
 </ul>
 
 

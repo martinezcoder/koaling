@@ -2,6 +2,7 @@ class HomeController < ActionController::Base
   protect_from_forgery
   
   def index   
+
 		# este código es para adquirir el token. Los valores del token se adquieren desde la aplicación
 		# sin necesidad de estar autenticado.  
 		# session[:oauth] es un objeto OAuth al que le pasamos los datos de nuestra aplicación Facebook
@@ -25,17 +26,17 @@ class HomeController < ActionController::Base
 			 format.html {  }
 		end
 	
-   end
+  end
 
 	def callback
-		# la variable params creo que es una variable global de rails. Tiene los siguientes valores:
-		# code: un extraño código
+		# la variable params es una variable de rails (representa los params pasados en la URL). Tiene los siguientes valores:
+		# code: un código
 		# controller: "home" es el nombre del controlador
 		# action: "callback" es el nombre de este método del controlador HomeController
 		puts params.to_s
 		puts "******************************************************************"
 	
- 	if params[:code]
+ 		if params[:code]
   		# acknowledge code and get access token from FB
 			# AQUÍ es donde realmente empieza nuestra app a trabajar con facebook
 			# recogemos nuestro token y ya estamos listos para pedirle a facebook lo que necesitemos
@@ -47,7 +48,7 @@ class HomeController < ActionController::Base
 
 		puts "empieza lento...."
 		begin
-			@graph_data = @graph.get_object("/me/statuses", "fields"=>"message")
+			@graph_data = @graph.get_object("/me/feed") #, "fields"=>"message")
 			@profile = @graph.graph_call("cocacola", {}, "get")
 			puts @profile
 		rescue Exception=>ex

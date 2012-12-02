@@ -4,10 +4,14 @@ gem 'rails', '3.1.0'
 gem 'koala', '1.5.0'
 
 
+gem 'googlecharts'
+
+gem 'google_charts'
+
 group :development do
 	require 'resolv'
 	require 'resolv-replace'
-	#gem 'em-resolv-replace'
+	# gem 'em-resolv-replace', require: false
 end
 
 # Bundle edge Rails instead:
